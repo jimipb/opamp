@@ -1,5 +1,5 @@
-\select@language {ngerman}
-\contentsline {chapter}{\numberline {1}Einleitung}{3}{chapter.1}
-\contentsline {chapter}{\numberline {2}Versuchsdurchf\IeC {\"u}hrung}{4}{chapter.2}
-\contentsline {section}{\numberline {2.1}Testschaltungen}{4}{section.2.1}
-\contentsline {subsection}{\numberline {2.1.1}Verst\IeC {\"a}rkungsfaktor einer invertierenden Schaltung}{4}{subsection.2.1.1}
+\babel@toc {ngerman}{}
+\contentsline {chapter}{\numberline {1}Einleitung}{3}{chapter.1}% 
+\contentsline {chapter}{\numberline {2}Versuchsdurchf\IeC {\"u}hrung}{4}{chapter.2}% 
+\contentsline {section}{\numberline {2.1}Testschaltungen}{4}{section.2.1}% 
+\contentsline {subsection}{\numberline {2.1.1}Verst\IeC {\"a}rkungsfaktor einer nicht-invertierenden Schaltung}{4}{subsection.2.1.1}% 
