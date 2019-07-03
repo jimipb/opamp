@@ -49,7 +49,40 @@ $100 ~k Omega $	$10 ~k Omega $	$11$
 .sp 1
 In unten stehender Abbildung ist zu erkennen, dass die Verstärkung im Rahmen der Messtoleranz
 gut erreicht wurde.
+.sp 1
 .PDFPIC Mess/Op/noninv.pdf 4
 .sp 1
 .ce 1
 Abbildung \n+[abb]: Messung der nicht-invertierenden Verstärkerschaltung. In der Legende sind die Verstärkungen des jeweiligen Aufbaus gelistet. Zur Messung wurde ein Spannungsteiler am Eingang verwendet, um die maximale Spannung des AD-Wandlers nicht zu überschreiten.
+.NH 3
+Frequenzfilter
+.PP
+Die Filter im Praktikumsraum haben nicht funktioniert. Aus diesem Grund wurden
+die Testschaltungen zu Frequenzfilter mit einem selbstzusammengeschalteten
+Hochpassfilter, bestehend aus einem Kondensator und einem Widerstand,
+durchgeführt. 
+.sp 1
+.PDFPIC Mess/hochpass.pdf 4
+.sp 1
+.ce 1
+Messung des Hochpass
+.sp 1
+Um die Ordnung des Hochpass' zu bestimmen, soll zunächst der Spannungsabfall in
+der linearen Region des Filters. Zwischen $20 ~ roman "Hz" $ und $5 ~ roman "Hz" $
+fällt die Spannung von $5,31 ~ roman "V" $ auf $2,23 ~ roman "V" $ ab. In
+Dezibel
+.EQ
+Q sub {(U)} = 10 cdot roman "lg" 5,31 over 2,23 ~ roman "dB" = 3,77 ~
+roman "dB"
+.EN
+Um nun den Abfall pro Dekade zu erhalten, rechnet man
+.EQ
+{Q sub {(U)} } over { roman "Dekade" } = { 3,77 ~ roman "dB" } over { 15 ~
+roman "Hz" } cdot { 180 ~ roman "Hz" } over { roman "Dekade" } = 45,2 ~ {
+roman "dB" } over { roman "Dekade" }
+.EN
+Für die Ordnung gilt weiter
+.EQ
+{ 20 roman "dB" } over { roman "Dekade" cdot roman "Ordnung" }
+.EN
+Somit handelt es sich bei unserem Filter um einen Hochpass der Ordnung 3.
