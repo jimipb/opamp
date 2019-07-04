@@ -65,7 +65,7 @@ durchgeführt.
 .PDFPIC Mess/hochpass.pdf 4
 .sp 1
 .ce 1
-Messung des Hochpass
+Abbildung \n+[abb]: Messung des Hochpass
 .sp 1
 Um die Ordnung des Hochpass' zu bestimmen, soll zunächst der Spannungsabfall in
 der linearen Region des Filters. Zwischen $20 ~ roman "Hz" $ und $5 ~ roman "Hz" $

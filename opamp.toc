@@ -3,3 +3,5 @@
 \contentsline {chapter}{\numberline {2}Versuchsdurchf\IeC {\"u}hrung}{4}{chapter.2}% 
 \contentsline {section}{\numberline {2.1}Testschaltungen}{4}{section.2.1}% 
 \contentsline {subsection}{\numberline {2.1.1}Verst\IeC {\"a}rkungsfaktor einer nicht-invertierenden Schaltung}{4}{subsection.2.1.1}% 
+\contentsline {subsection}{\numberline {2.1.2}Frequenzfilter}{6}{subsection.2.1.2}% 
+\contentsline {section}{\numberline {2.2}EKG Schaltung}{7}{section.2.2}% 
