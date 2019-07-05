@@ -98,3 +98,36 @@ Schläge erkennen.
 Der Puls von Korbinian lag bei $60 \, \frac{ \text{Schläge}}{\text{min}}$ und der von
 Jonas bei $75 \, \frac{\text{Schläge}}{\text{min}}$.
 \mess{Mess/Ekg/jonas_unb.pdf}{Herzschlag von Jonas}{jon1}
+
+Um die Frequenzen des EKGs zu visualisiern, werden die Daten Fouriertransformiert.
+Dadurch werden die Frequenzanteile des Gesamtsignals in ihr Bestandteile zerlegt
+und entlang der x-Achse aufgetragen.
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.7\textwidth]{Mess/Ekg/jonas_nofft.pdf}
+	\caption{Fouriertransformation von Jonas' Herzschlag}
+	\label{jonfftnofilter}
+\end{figure}
+Hier ist der hohe Anteil des Störsignale schnell ersichtlich.
+Die Frequenzanteile unter einem Herz sollen nun durch einen Hochpass herausgefiltert werden.
+Gleichzeit sollen die Anteile über 14 Hertz durch einen Tiefpass, und das Störsignal bei
+10 Hertz durch eine Bandsperre gefiltert werden.
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.7\textwidth]{Mess/Ekg/jonas_fft.pdf}
+	\caption{Fouriertransformation des Herzschlags nach Filterung}
+	\label{jonfft}
+\end{figure}
+Das Signal ist nun besser erkennbar.
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.7\textwidth]{Mess/Ekg/jonas_nofftfilters_gimp.pdf}
+	\caption{Herzschlags nach Filterung}
+	\label{jonfilter}
+\end{figure}
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.7\textwidth]{Mess/Ekg/jonas_nofftnofilter_gimp.pdf}
+	\caption{Zum Vergleich: selber Signalabschnitt ohne Filter}
+	\label{jonnofilter}
+\end{figure}
