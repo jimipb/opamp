@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE qti>
+<qti app="QtiPlot" version="1.0.0-rc9" dpi="150" arch="Gnu64">
+	<window type="3" x="1032" y="0" w="831" h="693" active="1" dpi="150">
+		<layout cw="823" ch="632" w="597" h="550" left="5" right="5" top="5" bottom="5" rows="1" cols="1" vSpace="0" hSpace="0" hAlign="0" vAlign="0" align="1" common="1" link="1" scale="1" currentLayer="0" sPrint="0" cmPrint="0" atUnits="1" atdIndex="0" atPolicy="4" alMode="0" luMode="2"/>
+		<tab x="29" y="5" w="789" h="626" autoscale="0" maxMajorTicks="20" gap="1" scaleFont="1" dataMargins="1">
+			<page x="0.0352369" y="0.00791139" w="0.958688" h="0.990506"/>
+			<frame bg="#ffffff,0"/>
+			<canvas x="127" y="16" w="597" h="550" fixRatio="0" bg="#ffffff,0"/>
+			<grid xAxis="2" yAxis="0"/>
+			<curve type="0" z="21" table="FFT1" x="Frequenz" y="Amplitude" from="0" to="-1" line="2" lc="#000080" lw="1" ls="0" brc="#000000" brs="0"/>
+			<axis id="0" on="1" type="0" format="0" prec="6" lw="1">
+				<div from="0" to="2000" step="0" maj="5" min="4" type="0"/>
+				<ticks maj="1" majl="9" min="1" minl="5"/>
+				<title text="Amplitude" color="#000000" font="Sans Serif,11,-1,5,75,0,0,0,0,0" align="5124" space="2" fmw="133.344"/>
+				<labels space="4" font="Sans Serif,9,-1,5,50,0,0,0,0,0" align="0"/>
+			</axis>
+			<axis id="1" on="1" type="0" format="0" prec="6" lw="1">
+				<div from="0" to="1000" step="0" maj="6" min="5" type="0"/>
+				<ticks maj="1" majl="9" min="1" minl="5"/>
+				<title text=" " color="#000000" font="Sans Serif,9,-1,5,75,0,0,0,0,0" align="5124" space="2" fmw="6.60938"/>
+				<labels space="4" font="Sans Serif,9,-1,5,50,0,0,0,0,0" align="0"/>
+			</axis>
+			<axis id="2" on="1" type="0" format="0" prec="6" lw="1">
+				<div from="0" to="20" step="0" maj="5" min="4" type="0"/>
+				<ticks maj="1" majl="9" min="1" minl="5"/>
+				<title text="Frequenz (Hz)" color="#000000" font="Sans Serif,11,-1,5,75,0,0,0,0,0" align="5124" space="2" fmw="181.375"/>
+				<labels space="4" font="Sans Serif,9,-1,5,50,0,0,0,0,0" align="0"/>
+			</axis>
+			<axis id="3" on="1" type="0" format="0" prec="6" lw="1">
+				<div from="0" to="150" step="0" maj="8" min="5" type="0"/>
+				<ticks maj="1" majl="9" min="1" minl="5" hide="1"/>
+			</axis>
+			<filter type="15" inTable="jonas_sed" xCol="2" yCol="" from="1" to="-1" outCrv="0" points="100" outTable="FFT1" recalc="1" sort="1" fmt="e" prec="13" modifiedData="1" inv="0" norm="0" shift="1" sample="0.005"/>
+		</tab>
+	</window>
+</qti>
