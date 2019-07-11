@@ -5,6 +5,7 @@
 \begin{figure}[H]
      \centering
      \includegraphics[width=1\textwidth]{Abb/opamp.pdf}
+     \caption{Der Operationsverstärker}
      \label{opamp}
 \end{figure}
 OPV besitzen i. A. fünf entscheidende Ein- und Ausgänge. Einen sog. invertierenden Eingang (-), einen sog. nicht invertierenden Eingang (+), einen Ausgang und Anschlüsse für die Versorgungsspannung.
@@ -15,7 +16,7 @@ Der OPV kann als invertierender oder als nicht invertierender Verstärker verwen
 
 \begin{figure}[H]
     \centering 
-    \includegraphics[width=0.8\textwidth]{Abb/invamp.pdf}
+    \includegraphics[width=0.7\textwidth]{Abb/invamp.pdf}
     \caption{Das Schaltbild eines invertierenden Verstärkers mit OPV}
     \label{inv}
 \end{figure}
@@ -26,7 +27,7 @@ $v= U_a/U_e =-R_2/R_1$
 
 \begin{figure}[H]
     \centering
-    \includegraphics[width=0.8\textwidth]{Abb/ninv.pdf} 
+    \includegraphics[width=0.5\textwidth]{Abb/ninv.pdf} 
     \caption{Schaltbild eines nichtinvertierenden Verstärkers}
     \label{ninv}
 \end{figure}
@@ -42,7 +43,8 @@ Klar ist, dass wir im realen nie einen unendlich großen oder Null- Widerstand h
 
 \begin{figure}[H]
      \centering
-     \includegraphics[width=\textwidth]{Abb/vergl.pdf}
+     \includegraphics[width=0.9\textwidth]{Abb/vergl.pdf}
+     \caption{Vergleich zwischen realem und idealem Operationsverstärker}
 \end{figure}
 
 \subsection{Impedanzwandler}
@@ -61,13 +63,16 @@ Ein A-D-Wandler setzt ein analoges Eingangssignal in digitale Daten um. Dazu wir
 Zu sehen in Abbildung \ref{adw} ist, welche Bedeutung die Anzahl der Bits auf den erhalt gut beschriebener Schwingungen hat. Dies wird auch als Auflösung bezeichnet. Die Anzahl der Bits wird auch Quantisierungszustände genannt.
 \begin{figure}[H]
      \centering     
-     \includegraphics[width=0.8\textwidth]{Abb/adw.pdf}
+     \includegraphics[width=0.7\textwidth]{Abb/adw.pdf}
+     \caption{Wandlung eines analogen Signals in ein Digitales}
+     \label{adw}
 \end{figure}
 Ein A-D-Wandler ist ideal ausgesteuert, wenn die maximal erreichte Eingangsspannung mit der höchstmöglichen Binärzahl kodiert wird. 
 Nach dem sog. Nyquist-Shannon-Abtasttheorem muss die Abtastfrequenz mindestens doppelt so groß sein wie die maximal mögliche Eingangsfrequenz. Andernfalls spricht man von Unterabtastung, das sog. Aliasing. Dabei werden Frequenzen, die höher sind als die halbe Abtastfrequenz, als niedrigere Frequenzen interpretiert.
 \begin{figure}[H]
     \centering
     \includegraphics[width=0.6\textwidth]{Abb/abtast.pdf} 
+    \caption{Effekt einer zu kleinen Abtastfrequenz: Nyquist-Shannon-Abtasttheorem}
 \end{figure}
 
 \subsection{Hoch- und Tiefpassschaltungen}
@@ -76,6 +81,7 @@ Die verwendeten Analogfilter setzen sich wie folgt zusammen.
 \begin{figure}[H]
     \centering
     \includegraphics[width=\textwidth]{Abb/pass.pdf} 
+    \caption{Schaltbilder verschiedener Frequenzfilter}
     \label{pass}
 \end{figure}
 
@@ -95,15 +101,15 @@ Die Güte beschreibt im Allgemeinen das Maß der Dämpfung in einem Schwingkreis
 Ist die Güte Groß, so ist die Dämpfung klein.
 \begin{figure}[H]
     \centering
-    \includegraphics[width=1\textwidth]{Abb/rechtecktief.pdf} 
-    \caption{Bei Anwendung eines Tiefpass auf ein Rechtecksignal entsteht eine Kombination aus Sinusfunktionen. Bei 
-             ausreichend niedriger Frequenz (hier 0,5 Hz) entsteht also ein einziger Sinus.}
+    \includegraphics[width=0.6\textwidth]{Abb/rechtecktief.pdf} 
+    \caption{Anwendung eines Tiefpass auf ein Rechtecksignal}
 \end{figure}
+
 \subsubsection{Bode-Diagramme}
 Die Bode-Diagramme beschreiben zwei Arten von Graphen. Zum einen gibt es den Graph der Amplitudenverstärkung, zum anderen den Graphen der Phasenverschiebung. Sie tragen Amplitude/Phase gegen die Frequenz auf und kann damit charaktaristische Bauteile wie Filter und Pässe darstellen. Zu sehen in Abbildung 8 ist ein Beispiel der Bode-Diagramme zu einem Tiefpass. Es ist deutlich zu sehen, dass die Amplitude bei Hohen Frequenzen stark abnimmt, und bei der Grenzfrequenz die Phasenverschiebung am stärksten ist.
 \begin{figure}[H]
     \centering
-    \includegraphics[width=0.5\textwidth]{Abb/bode.pdf}
+    \includegraphics[width=0.6\textwidth]{Abb/bode.pdf}
     \caption{Bode-Diagramme} 
 \end{figure}
 
@@ -113,7 +119,6 @@ Wir verwenden einfach die Spannung, dies ist erlaubt, da P= U*I
 
 \subsection{Fouriertransformation }
 Die Fourier-Transformation erlaubt es ein Zeitsignal einer aperiodischen Funktion $f(x)$ in ein Spektrum $F(\omega)$ zu zerlegen. Dabei gibt $f(x)$ den Zeitbereich an und $F(\omega)$ den Frequenzbereich. Demnach kann angenommen werden, dass x = Zeit ist und $\omega= $Frequenz. 
-(Zitat aus: \url{https://ivv5hpp.uni-muenster.de/u/raimar/lehre/WS12/Integraltransformationen/Vortrag_Fourier-Transformation.pdf} )
 Dabei unterscheidet man zwischen verschiedenen Typen. Graphisch sieht dies folgendermaßen aus:
 \begin{figure}[H]
      \centering

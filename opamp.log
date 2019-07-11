@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2019/dev/Debian) (preloaded format=pdflatex 2019.7.8)  10 JUL 2019 14:44
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2019/dev/Debian) (preloaded format=pdflatex 2019.7.8)  11 JUL 2019 08:57
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -581,6 +581,20 @@ Package: float 2001/11/08 v1.3d Float enhancements (AL)
 )
 (/usr/share/texlive/texmf-dist/tex/latex/placeins/placeins.sty
 Package: placeins 2005/04/18  v 2.2
+)
+(/usr/share/texlive/texmf-dist/tex/latex/lipsum/lipsum.sty
+Package: lipsum 2019/01/02 v2.2 150 paragraphs of Lorem Ipsum dummy text
+
+(/usr/share/texlive/texmf-dist/tex/latex/lipsum/lipsum.ltd.tex
+File: lipsum.ltd.tex 2019/01/02 v2.2 The Lorem ipsum dummy text
+))
+(/usr/share/texlive/texmf-dist/tex/latex/wrapfig/wrapfig.sty
+\wrapoverhang=\dimen165
+\WF@size=\dimen166
+\c@WF@wrappedlines=\count288
+\WF@box=\box60
+\WF@everypar=\toks25
+Package: wrapfig 2003/01/31  v 3.6
 ) (./opamp.aux
 
 LaTeX Warning: Label `ninv' multiply defined.
@@ -588,20 +602,20 @@ LaTeX Warning: Label `ninv' multiply defined.
 )
 \openout1 = `opamp.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 16.
-LaTeX Font Info:    ... okay on input line 16.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 16.
-LaTeX Font Info:    ... okay on input line 16.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 16.
-LaTeX Font Info:    ... okay on input line 16.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 16.
-LaTeX Font Info:    ... okay on input line 16.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 16.
-LaTeX Font Info:    ... okay on input line 16.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 16.
-LaTeX Font Info:    ... okay on input line 16.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 16.
-LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
 Now handling font encoding TS1 ...
 ... processing UTF-8 mapping file for font encoding TS1
  (/usr/share/texlive/texmf-dist/tex/latex/base/ts1enc.dfu
@@ -686,17 +700,17 @@ File: siunitx-abbreviations.cfg 2017/11/26 v2.7k siunitx: Abbreviated units
 )
 (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count288
-\scratchdimen=\dimen165
-\scratchbox=\box60
-\nofMPsegments=\count289
-\nofMParguments=\count290
-\everyMPshowfont=\toks25
-\MPscratchCnt=\count291
-\MPscratchDim=\dimen166
-\MPnumerator=\count292
-\makeMPintoPDFobject=\count293
-\everyMPtoPDFconversion=\toks26
+\scratchcounter=\count289
+\scratchdimen=\dimen167
+\scratchbox=\box61
+\nofMPsegments=\count290
+\nofMParguments=\count291
+\everyMPshowfont=\toks26
+\MPscratchCnt=\count292
+\MPscratchDim=\dimen168
+\MPnumerator=\count293
+\makeMPintoPDFobject=\count294
+\everyMPtoPDFconversion=\toks27
 ) (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
 Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
 
@@ -714,8 +728,8 @@ G,.JBIG2,.JB2,.eps]
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
-\AtBeginShipoutBox=\box61
-Package hyperref Info: Link coloring OFF on input line 16.
+\AtBeginShipoutBox=\box62
+Package hyperref Info: Link coloring OFF on input line 18.
 
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
@@ -723,11 +737,11 @@ Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
 (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
 Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
-\c@section@level=\count294
+\c@section@level=\count295
 )
-LaTeX Info: Redefining \ref on input line 16.
-LaTeX Info: Redefining \pageref on input line 16.
-LaTeX Info: Redefining \nameref on input line 16.
+LaTeX Info: Redefining \ref on input line 18.
+LaTeX Info: Redefining \pageref on input line 18.
+LaTeX Info: Redefining \nameref on input line 18.
 
 (./opamp.out) (./opamp.out)
 \@outlinefile=\write3
@@ -739,7 +753,7 @@ Class scrreprt Info: loading recommended package `bookmark'.
 (scrreprt)           You can avoid loading `bookmark' with KOMA-Script option
 (scrreprt)           `bookmarkpackage=false' before \begin{document} and
 (scrreprt)           you can avoid this message with `\usepackage{bookmark}'
-(scrreprt)           before \begin{document} on input line 16.
+(scrreprt)           before \begin{document} on input line 18.
 
 (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/bookmark.sty
 Package: bookmark 2016/05/17 v1.26 PDF bookmarks (HO)
@@ -749,14 +763,14 @@ File: bkm-pdftex.def 2016/05/17 v1.26 bookmark driver for pdfTeX (HO)
 Package auxhook Info: \AddLineBeginMainAux comes a little late,
 (auxhook)             because the main .aux file is already opened on input lin
 e 164.
-\BKM@id=\count295
+\BKM@id=\count296
 ))
-LaTeX Font Info:    Try loading font information for U+msa on input line 16.
+LaTeX Font Info:    Try loading font information for U+msa on input line 18.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 16.
+LaTeX Font Info:    Try loading font information for U+msb on input line 18.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
@@ -816,143 +830,168 @@ Package pdftex.def Info: Abb/opamp.pdf  used on input line 7.
 <Abb/invamp.pdf, id=60, 90.0966pt x 50.3481pt>
 File: Abb/invamp.pdf Graphic file (type pdf)
 <use Abb/invamp.pdf>
-Package pdftex.def Info: Abb/invamp.pdf  used on input line 18.
-(pdftex.def)             Requested size: 334.60571pt x 186.99025pt.
+Package pdftex.def Info: Abb/invamp.pdf  used on input line 19.
+(pdftex.def)             Requested size: 292.7776pt x 163.61551pt.
 [4
 
- <./Abb/opamp.pdf>]
-<Abb/ninv.pdf, id=73, 52.998pt x 38.7849pt>
-File: Abb/ninv.pdf Graphic file (type pdf)
-<use Abb/ninv.pdf>
-Package pdftex.def Info: Abb/ninv.pdf  used on input line 29.
-(pdftex.def)             Requested size: 334.60571pt x 245.00475pt.
- [5pdfTeX warning (ext4): destination with the same identifier (name{figure.2.1
-}) has been already used, duplicate ignored
+pdfTeX warning (ext4): destination with the same identifier (name{figure.2.1}) 
+has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.33 I
-      n Abb. \ref{ninv} ist das Schaltbild eines nichtinvertierenden Verstä...
- <./Abb/invamp.pdf>]
+l.23 A
+      bb. \ref{inv} zeigt das Schaltbild eines invertierenden Verstärkers m...
+ <./Abb/opamp.pdf>]
+<Abb/ninv.pdf, id=74, 52.998pt x 38.7849pt>
+File: Abb/ninv.pdf Graphic file (type pdf)
+<use Abb/ninv.pdf>
+Package pdftex.def Info: Abb/ninv.pdf  used on input line 30.
+(pdftex.def)             Requested size: 209.12778pt x 153.08203pt.
+
 
 LaTeX Warning: Command \textperiodcentered invalid in math mode on input line 3
-4.
+5.
 
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 34.
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 35.
 (/usr/share/texlive/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10.95> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 34.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 35.
 
 
 LaTeX Warning: Command \textperiodcentered invalid in math mode on input line 3
-4.
+5.
 
-<Abb/vergl.pdf, id=93, 144.0582pt x 39.7485pt>
-File: Abb/vergl.pdf Graphic file (type pdf)
-<use Abb/vergl.pdf>
-Package pdftex.def Info: Abb/vergl.pdf  used on input line 45.
-(pdftex.def)             Requested size: 418.25555pt x 115.42598pt.
-[6pdfTeX warning (ext4): destination with the same identifier (name{figure.2.2}
+[5pdfTeX warning (ext4): destination with the same identifier (name{figure.2.2}
 ) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.47 
-      <./Abb/ninv.pdf>]
-<Abb/impconv.pdf, id=109, 308.352pt x 205.4877pt>
+l.43 
+     pdfTeX warning (ext4): destination with the same identifier (name{figure.2
+.3}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.43 
+      <./Abb/invamp.pdf> <./Abb/ninv.pdf
+
+pdfTeX warning: pdflatex (file ./Abb/ninv.pdf): PDF inclusion: multiple pdfs wi
+th page group included in a single page
+>]
+<Abb/vergl.pdf, id=104, 144.0582pt x 39.7485pt>
+File: Abb/vergl.pdf Graphic file (type pdf)
+<use Abb/vergl.pdf>
+Package pdftex.def Info: Abb/vergl.pdf  used on input line 46.
+(pdftex.def)             Requested size: 376.42744pt x 103.88283pt.
+<Abb/impconv.pdf, id=105, 308.352pt x 205.4877pt>
 File: Abb/impconv.pdf Graphic file (type pdf)
 <use Abb/impconv.pdf>
-Package pdftex.def Info: Abb/impconv.pdf  used on input line 53.
+Package pdftex.def Info: Abb/impconv.pdf  used on input line 55.
 (pdftex.def)             Requested size: 292.7776pt x 195.11185pt.
 
-Overfull \hbox (56.672pt too wide) in paragraph at lines 50--55
+Overfull \hbox (56.672pt too wide) in paragraph at lines 52--57
 \OT1/cmr/m/n/10.95 Der Im-pe-dan-zwand-ler ent-spricht dem nicht-invertierendem
  Verst[]arker, mit ei-nem Verst[]arkungsfaktor
  []
 
-
-LaTeX Warning: Reference `adw' on page 7 undefined on input line 61.
-
-<Abb/adw.pdf, id=110, 303.2931pt x 173.9298pt>
-File: Abb/adw.pdf Graphic file (type pdf)
-<use Abb/adw.pdf>
-Package pdftex.def Info: Abb/adw.pdf  used on input line 64.
-(pdftex.def)             Requested size: 334.60571pt x 191.8913pt.
-[7pdfTeX warning (ext4): destination with the same identifier (name{figure.2.3}
+[6pdfTeX warning (ext4): destination with the same identifier (name{figure.2.4}
 ) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.65 \end{figure}
-                  <./Abb/vergl.pdf> <./Abb/impconv.pdf
+l.59 
+     pdfTeX warning (ext4): destination with the same identifier (name{figure.2
+.5}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.59 
+      <./Abb/vergl.pdf> <./Abb/impconv.pdf
 
 pdfTeX warning: pdflatex (file ./Abb/impconv.pdf): PDF inclusion: multiple pdfs
  with page group included in a single page
 >]
-<Abb/abtast.pdf, id=132, 149.4346pt x 115.30772pt>
+<Abb/adw.pdf, id=128, 303.2931pt x 173.9298pt>
+File: Abb/adw.pdf Graphic file (type pdf)
+<use Abb/adw.pdf>
+Package pdftex.def Info: Abb/adw.pdf  used on input line 66.
+(pdftex.def)             Requested size: 292.7776pt x 167.90489pt.
+<Abb/abtast.pdf, id=129, 149.4346pt x 115.30772pt>
 File: Abb/abtast.pdf Graphic file (type pdf)
 <use Abb/abtast.pdf>
-Package pdftex.def Info: Abb/abtast.pdf  used on input line 70.
+Package pdftex.def Info: Abb/abtast.pdf  used on input line 74.
 (pdftex.def)             Requested size: 250.95587pt x 193.65933pt.
-<Abb/pass.pdf, id=133, 119.2455pt x 34.9305pt>
-File: Abb/pass.pdf Graphic file (type pdf)
-<use Abb/pass.pdf>
-Package pdftex.def Info: Abb/pass.pdf  used on input line 78.
-(pdftex.def)             Requested size: 418.25555pt x 122.54636pt.
- [8 <./Abb/adw.pdf> <./Abb/abtast.pdf
-
-pdfTeX warning: pdflatex (file ./Abb/abtast.pdf): PDF inclusion: multiple pdfs 
-with page group included in a single page
->]
-
-LaTeX Warning: Command \textperiodcentered invalid in math mode on input line 9
-3.
-
-
-LaTeX Warning: Command \textperiodcentered invalid in math mode on input line 9
-3.
-
-<Abb/rechtecktief.pdf, id=157, 475.7775pt x 288.07625pt>
-File: Abb/rechtecktief.pdf Graphic file (type pdf)
-<use Abb/rechtecktief.pdf>
-Package pdftex.def Info: Abb/rechtecktief.pdf  used on input line 98.
-(pdftex.def)             Requested size: 418.25555pt x 253.25731pt.
-[9 <./Abb/pass.pdf>]
-<Abb/bode.pdf, id=174, 110.814pt x 113.9457pt>
-File: Abb/bode.pdf Graphic file (type pdf)
-<use Abb/bode.pdf>
-Package pdftex.def Info: Abb/bode.pdf  used on input line 106.
-(pdftex.def)             Requested size: 209.12778pt x 215.03856pt.
- [10pdfTeX warning (ext4): destination with the same identifier (name{figure.2.
-4}) has been already used, duplicate ignored
-
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.109 
-       <./Abb/rechtecktief.pdf>]
-<Abb/fourier.pdf, id=191, 84.315pt x 78.0516pt>
-File: Abb/fourier.pdf Graphic file (type pdf)
-<use Abb/fourier.pdf>
-Package pdftex.def Info: Abb/fourier.pdf  used on input line 120.
-(pdftex.def)             Requested size: 250.95587pt x 232.31892pt.
-
-Overfull \hbox (76.6663pt too wide) in paragraph at lines 115--121
-\OT1/cmr/m/n/10.95 (Zi-tat aus: []$\OT1/cmtt/m/n/10.95 https : / / ivv5hpp . un
-i-[]muenster . de / u / raimar / lehre / WS12 / Integraltransformationen /
- []
-
-[11pdfTeX warning (ext4): destination with the same identifier (name{figure.2.5
+ [7pdfTeX warning (ext4): destination with the same identifier (name{figure.2.6
 }) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.122 A
+l.77 
+      <./Abb/adw.pdf>]
+<Abb/pass.pdf, id=145, 119.2455pt x 34.9305pt>
+File: Abb/pass.pdf Graphic file (type pdf)
+<use Abb/pass.pdf>
+Package pdftex.def Info: Abb/pass.pdf  used on input line 83.
+(pdftex.def)             Requested size: 418.25555pt x 122.54636pt.
+ [8pdfTeX warning (ext4): destination with the same identifier (name{figure.2.7
+}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.96 
+     pdfTeX warning (ext4): destination with the same identifier (name{figure.2
+.8}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.96 
+      <./Abb/abtast.pdf> <./Abb/pass.pdf
+
+pdfTeX warning: pdflatex (file ./Abb/pass.pdf): PDF inclusion: multiple pdfs wi
+th page group included in a single page
+>]
+
+LaTeX Warning: Command \textperiodcentered invalid in math mode on input line 9
+9.
+
+
+LaTeX Warning: Command \textperiodcentered invalid in math mode on input line 9
+9.
+
+<Abb/rechtecktief.pdf, id=170, 475.7775pt x 288.07625pt>
+File: Abb/rechtecktief.pdf Graphic file (type pdf)
+<use Abb/rechtecktief.pdf>
+Package pdftex.def Info: Abb/rechtecktief.pdf  used on input line 104.
+(pdftex.def)             Requested size: 250.95587pt x 151.94998pt.
+<Abb/bode.pdf, id=171, 110.814pt x 113.9457pt>
+File: Abb/bode.pdf Graphic file (type pdf)
+<use Abb/bode.pdf>
+Package pdftex.def Info: Abb/bode.pdf  used on input line 112.
+(pdftex.def)             Requested size: 250.95587pt x 258.04974pt.
+[9pdfTeX warning (ext4): destination with the same identifier (name{figure.2.9}
+) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.115 
+       <./Abb/rechtecktief.pdf>]
+<Abb/fourier.pdf, id=190, 84.315pt x 78.0516pt>
+File: Abb/fourier.pdf Graphic file (type pdf)
+<use Abb/fourier.pdf>
+Package pdftex.def Info: Abb/fourier.pdf  used on input line 125.
+(pdftex.def)             Requested size: 250.95587pt x 232.31892pt.
+ [10pdfTeX warning (ext4): destination with the same identifier (name{figure.2.
+10}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.127 A
        llgemein gilt: Je größer das Zeitfenster, desto größer die erziel...
- <./Abb/bode.pdf>]) (./Kap/durchfuehrung.tex [12 <./Abb/fourier.pdf>]
+ <./Abb/bode.pdf>]) (./Kap/durchfuehrung.tex [11 <./Abb/fourier.pdf>]
 chapter 3.
-<Abb/nicht-inv.pdf, id=220, 78.2925pt x 55.20625pt>
+<Abb/nicht-inv.pdf, id=218, 78.2925pt x 55.20625pt>
 File: Abb/nicht-inv.pdf Graphic file (type pdf)
 <use Abb/nicht-inv.pdf>
 Package pdftex.def Info: Abb/nicht-inv.pdf  used on input line 18.
@@ -969,7 +1008,7 @@ Underfull \hbox (badness 3000) in paragraph at lines 21--21
 st[]ande
  []
 
-<Mess/Op/faktor1.pdf, id=221, 755.82375pt x 481.8pt>
+<Mess/Op/faktor1.pdf, id=219, 755.82375pt x 481.8pt>
 File: Mess/Op/faktor1.pdf Graphic file (type pdf)
 <use Mess/Op/faktor1.pdf>
 Package pdftex.def Info: Mess/Op/faktor1.pdf  used on input line 30.
@@ -979,7 +1018,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 25--30
 
  []
 
-[13
+[12
 
 pdfTeX warning (ext4): destination with the same identifier (name{figure.3.1}) 
 has been already used, duplicate ignored
@@ -988,7 +1027,7 @@ has been already used, duplicate ignored
                                                   \fi \fi 
 l.31 
       <./Abb/nicht-inv.pdf>]
-<Mess/Op/spannungsteiler.pdf, id=234, 755.82375pt x 481.8pt>
+<Mess/Op/spannungsteiler.pdf, id=231, 755.82375pt x 481.8pt>
 File: Mess/Op/spannungsteiler.pdf Graphic file (type pdf)
 <use Mess/Op/spannungsteiler.pdf>
 Package pdftex.def Info: Mess/Op/spannungsteiler.pdf  used on input line 36.
@@ -998,7 +1037,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 32--36
 
  []
 
-[14pdfTeX warning (ext4): destination with the same identifier (name{figure.3.2
+[13pdfTeX warning (ext4): destination with the same identifier (name{figure.3.2
 }) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
@@ -1011,7 +1050,7 @@ l.52
                                                   \fi \fi 
 l.52 
       <./Mess/Op/faktor1.pdf> <./Mess/Op/spannungsteiler.pdf>]
-<Mess/Op/noninv.pdf, id=262, 755.82375pt x 481.8pt>
+<Mess/Op/noninv.pdf, id=260, 755.82375pt x 481.8pt>
 File: Mess/Op/noninv.pdf Graphic file (type pdf)
 <use Mess/Op/noninv.pdf>
 Package pdftex.def Info: Mess/Op/noninv.pdf  used on input line 58.
@@ -1021,24 +1060,24 @@ Underfull \hbox (badness 10000) in paragraph at lines 53--58
 
  []
 
-<Mess/hochpass.pdf, id=263, 711.65875pt x 488.82625pt>
+<Mess/hochpass.pdf, id=261, 711.65875pt x 488.82625pt>
 File: Mess/hochpass.pdf Graphic file (type pdf)
 <use Mess/hochpass.pdf>
 Package pdftex.def Info: Mess/hochpass.pdf  used on input line 67.
 (pdftex.def)             Requested size: 292.7776pt x 201.0988pt.
-[15pdfTeX warning (ext4): destination with the same identifier (name{figure.3.4
+[14pdfTeX warning (ext4): destination with the same identifier (name{figure.3.4
 }) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
 l.88 \]
         <./Mess/Op/noninv.pdf>]
-<Mess/Ekg/korbi_unb.pdf, id=281, 642.4pt x 481.8pt>
+<Mess/Ekg/korbi_unb.pdf, id=279, 642.4pt x 481.8pt>
 File: Mess/Ekg/korbi_unb.pdf Graphic file (type pdf)
 <use Mess/Ekg/korbi_unb.pdf>
 Package pdftex.def Info: Mess/Ekg/korbi_unb.pdf  used on input line 97.
 (pdftex.def)             Requested size: 292.7776pt x 219.58691pt.
- [16pdfTeX warning (ext4): destination with the same identifier (name{figure.3.
+ [15pdfTeX warning (ext4): destination with the same identifier (name{figure.3.
 5}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
@@ -1046,17 +1085,17 @@ Package pdftex.def Info: Mess/Ekg/korbi_unb.pdf  used on input line 97.
 l.98 D
       er Puls von Korbinian lag bei $60 \, \frac{ \text{Schläge}}{\text{min...
  <./Mess/hochpass.pdf>]
-<Mess/Ekg/jonas_unb.pdf, id=301, 642.4pt x 481.8pt>
+<Mess/Ekg/jonas_unb.pdf, id=299, 642.4pt x 481.8pt>
 File: Mess/Ekg/jonas_unb.pdf Graphic file (type pdf)
 <use Mess/Ekg/jonas_unb.pdf>
 Package pdftex.def Info: Mess/Ekg/jonas_unb.pdf  used on input line 100.
 (pdftex.def)             Requested size: 292.7776pt x 219.58691pt.
-<Mess/Ekg/jonas_nofft.pdf, id=302, 396.48125pt x 304.13625pt>
+<Mess/Ekg/jonas_nofft.pdf, id=300, 396.48125pt x 304.13625pt>
 File: Mess/Ekg/jonas_nofft.pdf Graphic file (type pdf)
 <use Mess/Ekg/jonas_nofft.pdf>
 Package pdftex.def Info: Mess/Ekg/jonas_nofft.pdf  used on input line 107.
 (pdftex.def)             Requested size: 292.7776pt x 224.58858pt.
- [17pdfTeX warning (ext4): destination with the same identifier (name{figure.3.
+ [16pdfTeX warning (ext4): destination with the same identifier (name{figure.3.
 6}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
@@ -1071,76 +1110,100 @@ ready used, duplicate ignored
 l.111 H
        ier ist der hohe Anteil des Störsignale schnell ersichtlich. <./Mess/Ek
 g/korbi_unb.pdf> <./Mess/Ekg/jonas_unb.pdf>]
-<Mess/Ekg/jonas_fft.pdf, id=327, 437.635pt x 300.12125pt>
+<Mess/Ekg/jonas_fft.pdf, id=325, 437.635pt x 300.12125pt>
 File: Mess/Ekg/jonas_fft.pdf Graphic file (type pdf)
 <use Mess/Ekg/jonas_fft.pdf>
 Package pdftex.def Info: Mess/Ekg/jonas_fft.pdf  used on input line 117.
 (pdftex.def)             Requested size: 292.7776pt x 200.78252pt.
-<Mess/Ekg/jonas_filter.pdf, id=328, 398.48875pt x 282.05376pt>
+<Mess/Ekg/jonas_filter.pdf, id=326, 398.48875pt x 282.05376pt>
 File: Mess/Ekg/jonas_filter.pdf Graphic file (type pdf)
 <use Mess/Ekg/jonas_filter.pdf>
 Package pdftex.def Info: Mess/Ekg/jonas_filter.pdf  used on input line 124.
 (pdftex.def)             Requested size: 292.7776pt x 207.2403pt.
-) [18pdfTeX warning (ext4): destination with the same identifier (name{figure.3
-.8}) has been already used, duplicate ignored
+) (./Kap/quellen.tex [17pdfTeX warning (ext4): destination with the same identi
+fier (name{figure.3.8}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.23 
-     pdfTeX warning (ext4): destination with the same identifier (name{figure.3
-.9}) has been already used, duplicate ignored
+l.1 \begin{thebibliography}{xxx}
+                                pdfTeX warning (ext4): destination with the sam
+e identifier (name{figure.3.9}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.23 
-      <./Mess/Ekg/jonas_nofft.pdf> <./Mess/Ekg/jonas_fft.pdf>]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 24.
- [19pdfTeX warning (ext4): destination with the same identifier (name{figure.3.
-10}) has been already used, duplicate ignored
+l.1 \begin{thebibliography}{xxx}
+                                 <./Mess/Ekg/jonas_nofft.pdf> <./Mess/Ekg/jonas
+_fft.pdf>] [18pdfTeX warning (ext4): destination with the same identifier (name
+{figure.3.10}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.24 \end{document}
-                    <./Mess/Ekg/jonas_filter.pdf>]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 24.
+l.1 \begin{thebibliography}{xxx}
+                                 <./Mess/Ekg/jonas_filter.pdf>]
+Underfull \hbox (badness 10000) in paragraph at lines 3--4
+[][]$\OT1/cmtt/m/n/10.95 https : / / www . google . com / url ? sa = i & rct = 
+j & q = &esrc = s & source = images & cd =
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3--4
+\OT1/cmtt/m/n/10.95 &ved = 2ahUKEwjy4a-[] _ -[]6TjAhXMsKQKHW9uAroQjRx6BAgBEAU &
+ url = https % 3A % 2F %
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3--4
+\OT1/cmtt/m/n/10.95 2Filudis . de % 2F % 3Fpage _ id % 3D57 & psig = AOvVaw2Arw
+kWUdJ3 _ c5i9p4lY5nI &
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 21--22
+[][]$\OT1/cmtt/m/n/10.95 https : / / ivv5hpp . uni-[]muenster . de / u / raimar
+ / lehre / WS12 /
+ []
+
+)
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 27.
+ [19
+
+]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 27.
  (./opamp.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 24.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 24.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 27.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 27.
 Package rerunfilecheck Info: File `opamp.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
 
 
-LaTeX Warning: There were undefined references.
-
-
 LaTeX Warning: There were multiply-defined labels.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 24.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 27.
  ) 
 Here is how much of TeX's memory you used:
- 21074 strings out of 494435
- 400249 string characters out of 6173464
- 572021 words of memory out of 5000000
- 24511 multiletter control sequences out of 15000+600000
- 542799 words of font info for 64 fonts, out of 8000000 for 9000
+ 21323 strings out of 494435
+ 405591 string characters out of 6173464
+ 729214 words of memory out of 5000000
+ 24730 multiletter control sequences out of 15000+600000
+ 542491 words of font info for 63 fonts, out of 8000000 for 9000
  59 hyphenation exceptions out of 8191
  45i,20n,71p,9104b,942s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></us
-r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/shar
-e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/share/tex
-live/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/t
-exmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-d
-ist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fon
-ts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type
-1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/publi
-c/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfon
-ts/cm/cmssbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/c
-m/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy
-8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
-Output written on opamp.pdf (19 pages, 529630 bytes).
+</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></us
+r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/sha
+re/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/tex
+live/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/t
+exmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-di
+st/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/font
+s/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1
+/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/
+amsfonts/cm/cmssbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsf
+onts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/c
+m/cmsy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt1
+0.pfb>
+Output written on opamp.pdf (19 pages, 528586 bytes).
 PDF statistics:
- 495 PDF objects out of 1000 (max. 8388607)
- 376 compressed objects within 4 object streams
- 57 named destinations out of 1000 (max. 500000)
+ 524 PDF objects out of 1000 (max. 8388607)
+ 405 compressed objects within 5 object streams
+ 73 named destinations out of 1000 (max. 500000)
  242 words of extra memory for PDF output out of 10000 (max. 10000000)
 
