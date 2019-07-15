@@ -20,3 +20,4 @@
 \contentsline {subsection}{\numberline {3.1.1}Verst\IeC {\"a}rkungsfaktor einer nicht-invertierenden Schaltung}{12}{subsection.3.1.1}% 
 \contentsline {subsection}{\numberline {3.1.2}Frequenzfilter}{14}{subsection.3.1.2}% 
 \contentsline {section}{\numberline {3.2}EKG Schaltung}{15}{section.3.2}% 
+\contentsline {chapter}{\numberline {4}Fazit}{19}{chapter.4}% 
