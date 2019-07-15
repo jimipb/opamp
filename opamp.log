@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2019/dev/Debian) (preloaded format=pdflatex 2019.7.8)  11 JUL 2019 08:57
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2019/dev/Debian) (preloaded format=pdflatex 2019.7.8)  15 JUL 2019 11:11
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -775,31 +775,24 @@ LaTeX Font Info:    Try loading font information for U+msb on input line 18.
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ) (./titlepage.tex
+</home/jonas/logo_ur/ur-logo-bildmarke-grau.jpg, id=4, 593.3367pt x 427.5975pt>
 
-LaTeX Warning: File `/home/jonas/logo_ur/ur-logo-bildmarke-grau.jpg' not found 
-on input line 9.
+File: /home/jonas/logo_ur/ur-logo-bildmarke-grau.jpg Graphic file (type jpg)
+<use /home/jonas/logo_ur/ur-logo-bildmarke-grau.jpg>
+Package pdftex.def Info: /home/jonas/logo_ur/ur-logo-bildmarke-grau.jpg  used o
+n input line 9.
+(pdftex.def)             Requested size: 250.95587pt x 180.8555pt.
 
-
-! Package pdftex.def Error: File `/home/jonas/logo_ur/ur-logo-bildmarke-grau.jp
-g' not found: using draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.9 ...e/jonas/logo_ur/ur-logo-bildmarke-grau.jpg}
-                                                  \par
-? 
 [1
 
 
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]) (./opamp.toc)
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} </home/jonas/logo_ur/ur-log
+o-bildmarke-grau.jpg>]) (./opamp.toc)
 \tf@toc=\write4
 \openout4 = `opamp.toc'.
 
-
-(./Kap/einleitung.tex [2
+ (./Kap/einleitung.tex [2
 
 ]
 chapter 1.
@@ -842,7 +835,7 @@ has been already used, duplicate ignored
 l.23 A
       bb. \ref{inv} zeigt das Schaltbild eines invertierenden Verstärkers m...
  <./Abb/opamp.pdf>]
-<Abb/ninv.pdf, id=74, 52.998pt x 38.7849pt>
+<Abb/ninv.pdf, id=75, 52.998pt x 38.7849pt>
 File: Abb/ninv.pdf Graphic file (type pdf)
 <use Abb/ninv.pdf>
 Package pdftex.def Info: Abb/ninv.pdf  used on input line 30.
@@ -1181,10 +1174,10 @@ LaTeX Warning: There were multiply-defined labels.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 27.
  ) 
 Here is how much of TeX's memory you used:
- 21323 strings out of 494435
- 405591 string characters out of 6173464
+ 21327 strings out of 494435
+ 405798 string characters out of 6173464
  729214 words of memory out of 5000000
- 24730 multiletter control sequences out of 15000+600000
+ 24734 multiletter control sequences out of 15000+600000
  542491 words of font info for 63 fonts, out of 8000000 for 9000
  59 hyphenation exceptions out of 8191
  45i,20n,71p,9104b,942s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1200,10 +1193,10 @@ amsfonts/cm/cmssbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsf
 onts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/c
 m/cmsy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt1
 0.pfb>
-Output written on opamp.pdf (19 pages, 528586 bytes).
+Output written on opamp.pdf (19 pages, 1215068 bytes).
 PDF statistics:
- 524 PDF objects out of 1000 (max. 8388607)
+ 525 PDF objects out of 1000 (max. 8388607)
  405 compressed objects within 5 object streams
  73 named destinations out of 1000 (max. 500000)
- 242 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 247 words of extra memory for PDF output out of 10000 (max. 10000000)
 
