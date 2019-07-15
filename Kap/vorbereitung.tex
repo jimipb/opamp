@@ -9,7 +9,7 @@
      \label{opamp}
 \end{figure}
 OPV besitzen i. A. fünf entscheidende Ein- und Ausgänge. Einen sog. invertierenden Eingang (-), einen sog. nicht invertierenden Eingang (+), einen Ausgang und Anschlüsse für die Versorgungsspannung.
-OPV können sehr hohe Spannungsverstärkungen ($105$ bis $106$), sehr hohe Eingangsimpedanzen ($108 \Omega$) und sehr geringe Ausgangsimpedanzen ($20 \Omega$) besitzen. 
+OPV können sehr hohe Spannungsverstärkungen ($10^{5}$ bis $10^{6}$), sehr hohe Eingangsimpedanzen ($108 \Omega$) und sehr geringe Ausgangsimpedanzen ($20 \Omega$) besitzen. 
 Der OPV kann als invertierender oder als nicht invertierender Verstärker verwendet werden. Beide modulieren das eingehende Signal.
 
 \subsection{Invertierender Verstärker}
@@ -20,7 +20,7 @@ Der OPV kann als invertierender oder als nicht invertierender Verstärker verwen
     \caption{Das Schaltbild eines invertierenden Verstärkers mit OPV}
     \label{inv}
 \end{figure}
-Abb. \ref{inv} zeigt das Schaltbild eines invertierenden Verstärkers mit OPV. Da (+) auf Masse liegt, stellt sich dies als Potential für (-) ein; man spricht von einem virtuellen Massepunkt. D. h. aber, dass über R2 die Spannung Ua und über R1 die Spannung Ue abfällt. Da über die Eingänge kein Strom fließt, gilt $U_eR_1=-U_aR_2$. Für die Spannungsverstärkung heißt das:
+Abb. \ref{inv} zeigt das Schaltbild eines invertierenden Verstärkers mit OPV. Da (+) auf Masse liegt, stellt sich dies als Potential für (-) ein; man spricht von einem virtuellen Massepunkt. Daraus folgt, dass über R2 die Spannung Ua und über R1 die Spannung Ue abfällt. Über die Eingänge fließt kein Strom, somit gilt $U_eR_1=-U_aR_2$. Für die Spannungsverstärkung heißt das:
 $v= U_a/U_e =-R_2/R_1$
 
 \subsection{Nichtinvertierender Verstärker}
@@ -49,7 +49,7 @@ Klar ist, dass wir im realen nie einen unendlich großen oder Null- Widerstand h
 
 \subsection{Impedanzwandler}
 
-Der Impedanzwandler entspricht dem nicht-invertierendem Verstärker, mit einem Verstärkungsfaktor von 1. Im Schaltbild also ohne Spannungsteiler zu sehen. Es wird also der Widerstand $R_1$ auf 0 zu setzen damit die Formel $A= 1+ R_1/R_2 = 1$ ergibt.
+Der Impedanzwandler entspricht dem nicht-invertierendem Verstärker, mit einem Verstärkungsfaktor von 1. Im Schaltbild also ohne Spannungsteiler zu sehen. Man setzt also den Widerstand $R_1$ auf 0, damit die Formel $A= 1+ R_1/R_2 = 1$ ergibt.
 \begin{figure}[H]
      \centering
      \includegraphics[width=0.7\textwidth]{Abb/impconv.pdf}
@@ -132,12 +132,10 @@ Eine weiterer Gewinn durch die Fouriertransformation ist das Digitale Filtern vo
 Beim Messen von EKG-Signalen sind möglich durch:
 
 Elektrische Streufelder:
-
-Abschrimung der Signalführenden Kabel und Verwendung von Filtern gegen störende Nebensignale.
-
+  Abschrimung der Signalführenden Kabel und Verwendung von Filtern gegen störende Nebensignale.
 Magnetische Streufelder:
-     Kabel verdrillen, die Patientenlage ändert und erhöter Abstand zu Störquellen.
+  Kabel verdrillen, die Patientenlage ändert und erhöter Abstand zu Störquellen.
 Messverstärker:
-Hohe Eingangsimpedanz, da auch unser Körper eine Hohe Impedanz besitzt. Unnötige Verkabelung vermeiden.
+  Hohe Eingangsimpedanz, da auch unser Körper eine Hohe Impedanz besitzt. Unnötige Verkabelung vermeiden.
 Elektroden:
-Kontaktspray verwenden, und die Klemmen fest am Körper befestigen, um Aussetzer des Signals zu vermeiden.
+  Kontaktspray verwenden, und die Klemmen fest am Körper befestigen, um Aussetzer des Signals zu vermeiden.
