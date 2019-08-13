@@ -9,8 +9,8 @@
      \label{opamp}
 \end{figure}
 OPV besitzen i. A. fünf entscheidende Ein- und Ausgänge. Einen sog. invertierenden Eingang (-), einen sog. nicht invertierenden Eingang (+), einen Ausgang und Anschlüsse für die Versorgungsspannung.
-OPV können sehr hohe Spannungsverstärkungen ($10^{5}$ bis $10^{6}$), sehr hohe Eingangsimpedanzen ($108 \Omega$) und sehr geringe Ausgangsimpedanzen ($20 \Omega$) besitzen. 
-Der OPV kann als invertierender oder als nicht invertierender Verstärker verwendet werden. Beide modulieren das eingehende Signal.
+OPV können sehr hohe Eingangsimpedanzen ($10^{8} \Omega$) und sehr geringe Ausgangsimpedanzen ($20 \Omega$) besitzen. Dies ist notwendig, um Systeme unterschiedlicher Impedanzen miteinander koppeln zu können! Damit können sich sehr hohe Spannungsverstärkungen ($10^{5}$ bis $10^{6}$) ergeben.
+Der OPV kann als invertierender oder als nicht invertierender Verstärker verwendet werden. Beide verstärken Spannung und, oder Stromstärke das eingehende Signal.
 
 \subsection{Invertierender Verstärker}
 
@@ -39,7 +39,7 @@ $v=U_a/U_e=1+R_2/R_1$
 \subsection{Realer/idealer OPV}
 
 Folgende Grafik beschreibt die entscheidenden Unterschiede zwischen dem idealen und dem realen Operationsverstärker.
-Klar ist, dass wir im realen nie einen unendlich großen oder Null- Widerstand herstellen können. Der Ideale OPV ist weit entfernt vom Realen, doch die Tendenzen des Realen OPV gehen klar in die richtige Richtung. Bipolar und FET beschreiben, in dieser Tabelle, die Art der Transistoren, die im OPV verbaut wurden. Sie unterscheiden die Wirkung des OPV’s nur gering.
+Klar ist, dass wir im realen nie einen unendlich großen oder Null- Widerstand herstellen können. Für unsere Überlegungen, lässt sich der reale OPV trotzdem näherungsweise als idealer OPV betrachten. Mit diesen Näherungen ist die Theorie leichter zu verstehen. Bipolar und FET beschreiben, in dieser Tabelle, die Art der Transistoren, die im OPV verbaut wurden. Sie unterscheiden die Wirkung des OPVs nur gering.
 
 \begin{figure}[H]
      \centering
@@ -49,13 +49,13 @@ Klar ist, dass wir im realen nie einen unendlich großen oder Null- Widerstand h
 
 \subsection{Impedanzwandler}
 
-Der Impedanzwandler entspricht dem nicht-invertierendem Verstärker, mit einem Verstärkungsfaktor von 1. Im Schaltbild also ohne Spannungsteiler zu sehen. Man setzt also den Widerstand $R_1$ auf 0, damit die Formel $A= 1+ R_1/R_2 = 1$ ergibt.
+Der Impedanzwandler entspricht dem nicht-invertierendem Verstärker, mit einem Verstärkungsfaktor von 1. Im Schaltbild also ohne Spannungsteiler zu sehen. Man setzt also den Widerstand $R_1$ auf 0, damit die Formel $A= 1+ R_1/R_2 = 1$ ergibt. Er besitzt eine große Eingangsimpedanz und eine geringe Ausgangsimpedanz.
 \begin{figure}[H]
      \centering
      \includegraphics[width=0.7\textwidth]{Abb/impconv.pdf}
      \caption{Schaltbild eines Impedanzwandlers}
 \end{figure}
-Ein Impedanzwandler ist essenziell um Systeme mit verschieden großer Impedanz aneinander anzupassen. Also die geringe Stromstärke, die der menschliche Körper mit seinem Herzschlag erzeugt, auf eine verwertbare anzuheben, ohne dabei die Spannung zu verändern. Andernfalls wäre das Signal nicht in der Lage verschiedene Operationen ohne Veränderung zu überstehen (verschiedene Filter, Messausschläge bei Analogen Geräten). Er besitzt eine große Eingangsimpedanz und eine geringe Ausgangsimpedanz. 
+Ein Impedanzwandler ist essenziell um Systeme mit verschieden großer Impedanz aneinander anzupassen. Er ist also notwendig, um die geringe Stromstärke, die der menschliche Körper mit seinem Herzschlag erzeugt, auf eine verwertbare Stromstärke anzuheben, ohne dabei die Spannung zu verändern. Andernfalls würde das Signal nach passieren verschiedener Filterelemente, welche nie das ganze Signal hindurchlassen, immer mehr an Gültigkeit und Exaktheit verlieren. Mithilfe der Verstärkung ist das Signal aber stark genug, ohne erheblichen Verlust, gefiltert zu werden.
 
 \subsection{Analog-Digital-Wandler}
 
