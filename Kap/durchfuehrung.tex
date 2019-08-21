@@ -25,6 +25,11 @@ bestimmt.}
 Zur Messung benutzen wir ein Signalinterface, um ein Messsignal von
 $\SI{0}{\volt}$ bis $\SI{5}{\volt}$ zu generieren und den Output wieder
 abzutasten. \\
+	\begin{figure}
+		\centering
+		\includegraphics[width=0.7\textwidth]{Mess/Op/ausgangssignal.pdf}
+		\caption{Ausgangssignal des Interface}
+	\end{figure}
 \mess{Mess/Op/faktor1.pdf}{Messung einer Impedanzwandlerschaltung. Die
 						   Verstärkung ist 1. Diese Schaltung wird benutzt um den hohen Widerstand des
 						   Körpers vor der Verstärkung des Ekg Signals zu kompensieren.}{imp}
@@ -58,6 +63,7 @@ Messung wurde ein Spannungsteiler am Eingang verwendet, um die maximale Spannung
 des AD-Wandlers nicht zu überschreiten.}{noninv}
 
 \subsection{Frequenzfilter}
+
 Die Filter im Praktikumsraum haben nicht funktioniert. Aus diesem Grund wurden
 die Testschaltungen zu Frequenzfilter mit einem selbstzusammengeschalteten
 Hochpassfilter, bestehend aus einem Kondensator und einem Widerstand,
@@ -70,7 +76,7 @@ durchgeführt. \\
 \end{figure}
 
 Um die Ordnung des Hochpass' zu bestimmen, soll zunächst der Spannungsabfall in
-der linearen Region des Filters. Zwischen $\SI{8}{\hertz}$ und $\SI{5}{\hertz}$
+der linearen Region des Filters gemessen werden. Zwischen $\SI{8}{\hertz}$ und $\SI{5}{\hertz}$
 fällt die Spannung von $\SI{3,44}{\volt}$ auf $\SI{1,24}{\volt}$ ab. In
 Dezibel
 \[
@@ -86,8 +92,13 @@ Für die Ordnung gilt weiter
 \[
 \frac{ \SI{20}{\dB} }{\text{Dekade} \cdot \text{Ordnung} }
 \]
-Somit handelt es sich bei unserem Filter um einen Hochpass der Ordnung 6.
-Die Grenzfrequenz beträgt dem Graphen zufolge ca 14 Hz. 
+Der Messung zufolge handelt es sich bei unserem Filter um einen Hochpass der Ordnung 6.
+Hier ist uns bei der Messung offenbar ein Fehler unterlaufen, da die benutzte 
+Schaltung ein Hochpass der Ordnung 1 ist. Der Abfall sollte demnach kleiner
+$\SI{20}{\dB}$ pro Dekade sein.
+Im Plot wurde $\d \frac{1}{\sqrt{2}} U_{ein}$ durch eine Linie markiert.
+Die Frequenz, bei welcher das Ausgangssignal diesen Wert überschreitet wird
+Grenzfrequenz genannt. Diese beträgt dem Graphen zufolge ca 14 Hz. 
 
 \section{EKG Schaltung}
 
@@ -99,7 +110,7 @@ Der Puls von Korbinian lag bei $60 \, \frac{ \text{Schläge}}{\text{min}}$ und d
 Jonas bei $75 \, \frac{\text{Schläge}}{\text{min}}$.
 \mess{Mess/Ekg/jonas_unb.pdf}{Herzschlag von Jonas}{jon1}
 
-Um die Frequenzen des EKGs zu visualisiern, werden die Daten Fouriertransformiert.
+Um die Frequenzen des EKGs zu visualisieren, werden die Daten Fourier transformiert.
 Dadurch werden die Frequenzanteile des Gesamtsignals in ihr Bestandteile zerlegt
 und entlang der x-Achse aufgetragen.
 \begin{figure}[H]
@@ -109,8 +120,8 @@ und entlang der x-Achse aufgetragen.
 	\label{jonfftnofilter}
 \end{figure}
 Hier ist der hohe Anteil des Störsignale schnell ersichtlich.
-Die Frequenzanteile unter einem Herz sollen nun durch einen Hochpass herausgefiltert werden.
-Gleichzeit sollen die Anteile über 14 Hertz durch einen Tiefpass, und das Störsignal bei
+Die Frequenzanteile unter einem Hertz sollen nun durch einen Hochpass herausgefiltert werden.
+Gleichzeit sollen die Anteile über 14 Hertz durch einen Tiefpassund das Störsignal bei
 10 Hertz durch eine Bandsperre gefiltert werden.
 \begin{figure}[H]
 	\centering

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2019/dev/Debian) (preloaded format=pdflatex 2019.7.8)  15 JUL 2019 13:33
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2019/dev/Debian) (preloaded format=pdflatex 2019.7.8)  21 AUG 2019 11:03
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1001,16 +1001,16 @@ Underfull \hbox (badness 3000) in paragraph at lines 21--21
 st[]ande
  []
 
-<Mess/Op/faktor1.pdf, id=221, 755.82375pt x 481.8pt>
+<Mess/Op/ausgangssignal.pdf, id=221, 792.9625pt x 484.81125pt>
+File: Mess/Op/ausgangssignal.pdf Graphic file (type pdf)
+<use Mess/Op/ausgangssignal.pdf>
+Package pdftex.def Info: Mess/Op/ausgangssignal.pdf  used on input line 30.
+(pdftex.def)             Requested size: 292.7776pt x 179.00006pt.
+<Mess/Op/faktor1.pdf, id=222, 755.82375pt x 481.8pt>
 File: Mess/Op/faktor1.pdf Graphic file (type pdf)
 <use Mess/Op/faktor1.pdf>
-Package pdftex.def Info: Mess/Op/faktor1.pdf  used on input line 30.
+Package pdftex.def Info: Mess/Op/faktor1.pdf  used on input line 35.
 (pdftex.def)             Requested size: 292.7776pt x 186.6294pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 25--30
-
- []
-
 [12
 
 pdfTeX warning (ext4): destination with the same identifier (name{figure.3.1}) 
@@ -1018,15 +1018,15 @@ has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.31 
+l.36 
       <./Abb/nicht-inv.pdf>]
-<Mess/Op/spannungsteiler.pdf, id=233, 755.82375pt x 481.8pt>
+<Mess/Op/spannungsteiler.pdf, id=234, 755.82375pt x 481.8pt>
 File: Mess/Op/spannungsteiler.pdf Graphic file (type pdf)
 <use Mess/Op/spannungsteiler.pdf>
-Package pdftex.def Info: Mess/Op/spannungsteiler.pdf  used on input line 36.
+Package pdftex.def Info: Mess/Op/spannungsteiler.pdf  used on input line 41.
 (pdftex.def)             Requested size: 292.7776pt x 186.6294pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 32--36
+Underfull \hbox (badness 10000) in paragraph at lines 37--41
 
  []
 
@@ -1035,106 +1035,110 @@ Underfull \hbox (badness 10000) in paragraph at lines 32--36
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.52 
+l.42 
      pdfTeX warning (ext4): destination with the same identifier (name{figure.3
 .3}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.52 
-      <./Mess/Op/faktor1.pdf> <./Mess/Op/spannungsteiler.pdf>]
-<Mess/Op/noninv.pdf, id=262, 755.82375pt x 481.8pt>
+l.42 
+      <./Mess/Op/ausgangssignal.pdf> <./Mess/Op/faktor1.pdf>]
+<Mess/Op/noninv.pdf, id=264, 755.82375pt x 481.8pt>
 File: Mess/Op/noninv.pdf Graphic file (type pdf)
 <use Mess/Op/noninv.pdf>
-Package pdftex.def Info: Mess/Op/noninv.pdf  used on input line 58.
+Package pdftex.def Info: Mess/Op/noninv.pdf  used on input line 63.
 (pdftex.def)             Requested size: 292.7776pt x 186.6294pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 53--58
+Underfull \hbox (badness 10000) in paragraph at lines 58--63
 
  []
 
-<Mess/hochpass.pdf, id=263, 711.65875pt x 488.82625pt>
-File: Mess/hochpass.pdf Graphic file (type pdf)
-<use Mess/hochpass.pdf>
-Package pdftex.def Info: Mess/hochpass.pdf  used on input line 67.
-(pdftex.def)             Requested size: 292.7776pt x 201.0988pt.
 [14pdfTeX warning (ext4): destination with the same identifier (name{figure.3.4
 }) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.88 \]
-        <./Mess/Op/noninv.pdf>]
-<Mess/Ekg/korbi_unb.pdf, id=281, 642.4pt x 481.8pt>
-File: Mess/Ekg/korbi_unb.pdf Graphic file (type pdf)
-<use Mess/Ekg/korbi_unb.pdf>
-Package pdftex.def Info: Mess/Ekg/korbi_unb.pdf  used on input line 97.
-(pdftex.def)             Requested size: 292.7776pt x 219.58691pt.
+l.64 
+      <./Mess/Op/spannungsteiler.pdf>]
+<Mess/hochpass.pdf, id=280, 711.65875pt x 488.82625pt>
+File: Mess/hochpass.pdf Graphic file (type pdf)
+<use Mess/hochpass.pdf>
+Package pdftex.def Info: Mess/hochpass.pdf  used on input line 73.
+(pdftex.def)             Requested size: 292.7776pt x 201.0988pt.
  [15pdfTeX warning (ext4): destination with the same identifier (name{figure.3.
 5}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.98 D
-      er Puls von Korbinian lag bei $60 \, \frac{ \text{Schläge}}{\text{min...
- <./Mess/hochpass.pdf>]
-<Mess/Ekg/jonas_unb.pdf, id=301, 642.4pt x 481.8pt>
+l.82 \[
+       pdfTeX warning (ext4): destination with the same identifier (name{figure
+.3.6}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.82 \[
+        <./Mess/Op/noninv.pdf> <./Mess/hochpass.pdf>]
+<Mess/Ekg/korbi_unb.pdf, id=310, 642.4pt x 481.8pt>
+File: Mess/Ekg/korbi_unb.pdf Graphic file (type pdf)
+<use Mess/Ekg/korbi_unb.pdf>
+Package pdftex.def Info: Mess/Ekg/korbi_unb.pdf  used on input line 106.
+(pdftex.def)             Requested size: 292.7776pt x 219.58691pt.
+<Mess/Ekg/jonas_unb.pdf, id=311, 642.4pt x 481.8pt>
 File: Mess/Ekg/jonas_unb.pdf Graphic file (type pdf)
 <use Mess/Ekg/jonas_unb.pdf>
-Package pdftex.def Info: Mess/Ekg/jonas_unb.pdf  used on input line 100.
+Package pdftex.def Info: Mess/Ekg/jonas_unb.pdf  used on input line 109.
 (pdftex.def)             Requested size: 292.7776pt x 219.58691pt.
-<Mess/Ekg/jonas_nofft.pdf, id=302, 396.48125pt x 304.13625pt>
+ [16pdfTeX warning (ext4): destination with the same identifier (name{figure.3.
+7}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.110 
+       <./Mess/Ekg/korbi_unb.pdf>]
+<Mess/Ekg/jonas_nofft.pdf, id=328, 396.48125pt x 304.13625pt>
 File: Mess/Ekg/jonas_nofft.pdf Graphic file (type pdf)
 <use Mess/Ekg/jonas_nofft.pdf>
-Package pdftex.def Info: Mess/Ekg/jonas_nofft.pdf  used on input line 107.
+Package pdftex.def Info: Mess/Ekg/jonas_nofft.pdf  used on input line 116.
 (pdftex.def)             Requested size: 292.7776pt x 224.58858pt.
- [16pdfTeX warning (ext4): destination with the same identifier (name{figure.3.
-6}) has been already used, duplicate ignored
-
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.111 H
-       ier ist der hohe Anteil des Störsignale schnell ersichtlich.pdfTeX warn
-ing (ext4): destination with the same identifier (name{figure.3.7}) has been al
-ready used, duplicate ignored
-
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.111 H
-       ier ist der hohe Anteil des Störsignale schnell ersichtlich. <./Mess/Ek
-g/korbi_unb.pdf> <./Mess/Ekg/jonas_unb.pdf>]
-<Mess/Ekg/jonas_fft.pdf, id=327, 437.635pt x 300.12125pt>
+<Mess/Ekg/jonas_fft.pdf, id=329, 437.635pt x 300.12125pt>
 File: Mess/Ekg/jonas_fft.pdf Graphic file (type pdf)
 <use Mess/Ekg/jonas_fft.pdf>
-Package pdftex.def Info: Mess/Ekg/jonas_fft.pdf  used on input line 117.
+Package pdftex.def Info: Mess/Ekg/jonas_fft.pdf  used on input line 126.
 (pdftex.def)             Requested size: 292.7776pt x 200.78252pt.
-<Mess/Ekg/jonas_filter.pdf, id=328, 398.48875pt x 282.05376pt>
+ [17pdfTeX warning (ext4): destination with the same identifier (name{figure.3.
+8}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.129 \end{figure}
+                  pdfTeX warning (ext4): destination with the same identifier (
+name{figure.3.9}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.129 \end{figure}
+                   <./Mess/Ekg/jonas_unb.pdf> <./Mess/Ekg/jonas_nofft.pdf>]
+<Mess/Ekg/jonas_filter.pdf, id=360, 398.48875pt x 282.05376pt>
 File: Mess/Ekg/jonas_filter.pdf Graphic file (type pdf)
 <use Mess/Ekg/jonas_filter.pdf>
-Package pdftex.def Info: Mess/Ekg/jonas_filter.pdf  used on input line 124.
+Package pdftex.def Info: Mess/Ekg/jonas_filter.pdf  used on input line 133.
 (pdftex.def)             Requested size: 292.7776pt x 207.2403pt.
-) (./Kap/fazit.tex [17pdfTeX warning (ext4): destination with the same identifi
-er (name{figure.3.8}) has been already used, duplicate ignored
+)
+(./Kap/fazit.tex [18pdfTeX warning (ext4): destination with the same identifier
+ (name{figure.3.10}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
 l.1 \chapter
             {Fazit}pdfTeX warning (ext4): destination with the same identifier 
-(name{figure.3.9}) has been already used, duplicate ignored
+(name{figure.3.11}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
 l.1 \chapter
-            {Fazit} <./Mess/Ekg/jonas_nofft.pdf> <./Mess/Ekg/jonas_fft.pdf>]
-[18pdfTeX warning (ext4): destination with the same identifier (name{figure.3.1
-0}) has been already used, duplicate ignored
-
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.1 \chapter
-            {Fazit} <./Mess/Ekg/jonas_filter.pdf>]
+            {Fazit} <./Mess/Ekg/jonas_fft.pdf> <./Mess/Ekg/jonas_filter.pdf>]
 chapter 4.
-<Abb/herzschlag.jpg, id=385, 1027.84pt x 1027.84pt>
+<Abb/herzschlag.jpg, id=397, 1027.84pt x 1027.84pt>
 File: Abb/herzschlag.jpg Graphic file (type jpg)
 <use Abb/herzschlag.jpg>
 Package pdftex.def Info: Abb/herzschlag.jpg  used on input line 16.
@@ -1194,10 +1198,10 @@ LaTeX Warning: There were multiply-defined labels.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 28.
  ) 
 Here is how much of TeX's memory you used:
- 21340 strings out of 494435
- 405988 string characters out of 6173464
- 729214 words of memory out of 5000000
- 24740 multiletter control sequences out of 15000+600000
+ 21346 strings out of 494435
+ 406164 string characters out of 6173464
+ 727214 words of memory out of 5000000
+ 24744 multiletter control sequences out of 15000+600000
  542491 words of font info for 63 fonts, out of 8000000 for 9000
  59 hyphenation exceptions out of 8191
  45i,20n,71p,9104b,942s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1213,10 +1217,10 @@ amsfonts/cm/cmssbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsf
 onts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/c
 m/cmsy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt1
 0.pfb>
-Output written on opamp.pdf (20 pages, 1255990 bytes).
+Output written on opamp.pdf (20 pages, 1266332 bytes).
 PDF statistics:
- 536 PDF objects out of 1000 (max. 8388607)
- 414 compressed objects within 5 object streams
- 76 named destinations out of 1000 (max. 500000)
- 260 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 548 PDF objects out of 1000 (max. 8388607)
+ 422 compressed objects within 5 object streams
+ 77 named destinations out of 1000 (max. 500000)
+ 265 words of extra memory for PDF output out of 10000 (max. 10000000)
 
