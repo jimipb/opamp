@@ -60,7 +60,7 @@ Ein Impedanzwandler ist essenziell um Systeme mit verschieden großer Impedanz a
 \subsection{Analog-Digital-Wandler}
 
 Ein A-D-Wandler setzt ein analoges Eingangssignal in digitale Daten um. Dazu wird in einer festgelegten Abtastfrequenz jedem Spannungswert eine Binärzahl zugeordnet.
-Zu sehen in Abbildung \ref{adw} ist, welche Bedeutung die Anzahl der Bits auf den erhalt gut beschriebener Schwingungen hat. Dies wird auch als Auflösung bezeichnet. Die Anzahl der Bits wird auch Quantisierungszustände genannt.
+Zu sehen in Abbildung \ref{adw} ist, welche Bedeutung die Anzahl der Bits auf den erhalt gut beschriebener Schwingungen hat. Dies wird auch als Auflösung bezeichnet. Zwei hoch die Anzahl der Bits bezeichnet man als Quantisierungszustände.
 \begin{figure}[H]
      \centering     
      \includegraphics[width=0.7\textwidth]{Abb/adw.pdf}
@@ -68,7 +68,7 @@ Zu sehen in Abbildung \ref{adw} ist, welche Bedeutung die Anzahl der Bits auf de
      \label{adw}
 \end{figure}
 Ein A-D-Wandler ist ideal ausgesteuert, wenn die maximal erreichte Eingangsspannung mit der höchstmöglichen Binärzahl kodiert wird. 
-Nach dem sog. Nyquist-Shannon-Abtasttheorem muss die Abtastfrequenz mindestens doppelt so groß sein wie die maximal mögliche Eingangsfrequenz. Andernfalls spricht man von Unterabtastung, das sog. Aliasing. Dabei werden Frequenzen, die höher sind als die halbe Abtastfrequenz, als niedrigere Frequenzen interpretiert.
+Zur Vermeidung von Unterabtastung, das sog. Aliasing muss, nach dem sog. Nyquist-Shannon-Abtasttheorem, die Abtastfrequenz mindestens doppelt so groß sein wie die maximal mögliche Eingangsfrequenz. Ansonsten werden Frequenzen, die höher sind als die halbe Abtastfrequenz, als niedrigere Frequenzen interpretiert.
 \begin{figure}[H]
     \centering
     \includegraphics[width=0.6\textwidth]{Abb/abtast.pdf} 
@@ -77,7 +77,7 @@ Nach dem sog. Nyquist-Shannon-Abtasttheorem muss die Abtastfrequenz mindestens d
 
 \subsection{Hoch- und Tiefpassschaltungen}
 Die verwendeten Analogfilter setzen sich wie folgt zusammen.
-(L, ohne Index, stünde hier für eine Spule, ist im generellen jedoch ein gewöhnlicher Widerstand.)
+(Hier steht C für einen Kondensator und L für einen Widerstand)
 \begin{figure}[H]
     \centering
     \includegraphics[width=\textwidth]{Abb/pass.pdf} 
@@ -96,7 +96,7 @@ Er verändert ein Rechtecksignal wie folgt:
 
 \subsubsection{Bandsperre}
 Die Bandbreite einer Bandsperre ist die Größe des Frequenzbereichs zwischen oberer und unterer Grenzfrequenz, also $f_O -f_U$.
-Unter der Mittenfrequenz einer Bandsperre versteht man das geometrische Mittel aus oberer und unterer Grenzfrequenz, also: $f_0=\sqrt{(f_O·f_U)}$
+Unter der Mittenfrequenz einer Bandsperre versteht man das geometrische Mittel aus oberer und unterer Grenzfrequenz, also: $f_0=\sqrt{(f_O \cdot f_U)}$
 Die Güte beschreibt im Allgemeinen das Maß der Dämpfung in einem Schwingkreis, wie es diese Schaltungen sind.
 Ist die Güte Groß, so ist die Dämpfung klein.
 \begin{figure}[H]
@@ -106,7 +106,7 @@ Ist die Güte Groß, so ist die Dämpfung klein.
 \end{figure}
 
 \subsubsection{Bode-Diagramme}
-Die Bode-Diagramme beschreiben zwei Arten von Graphen. Zum einen gibt es den Graph der Amplitudenverstärkung, zum anderen den Graphen der Phasenverschiebung. Sie tragen Amplitude/Phase gegen die Frequenz auf und kann damit charaktaristische Bauteile wie Filter und Pässe darstellen. Zu sehen in Abbildung 8 ist ein Beispiel der Bode-Diagramme zu einem Tiefpass. Es ist deutlich zu sehen, dass die Amplitude bei Hohen Frequenzen stark abnimmt, und bei der Grenzfrequenz die Phasenverschiebung am stärksten ist.
+Die Bode-Diagramme beschreiben zwei Arten von Graphen. Zum einen gibt es den Graph der Amplitudenverstärkung, zum anderen den Graphen der Phasenverschiebung. Man trägt Amplitude/Phase gegen die Frequenz auf und kann damit für Bauteile wie Filter und Pässe charakteristische Kennlinien aufstellen. Zu sehen in Abbildung 8 ist ein Beispiel der Bode-Diagramme zu einem Tiefpass. Es ist deutlich zu sehen, dass die Amplitude ab einer bestimmten hohen Frequenzen beginnt abzunehmen, dann kontinuierlich sinkt, und die Grenzfrequenz die Bandbreite aufspannt. Für die Phasenverschiebung gilt, sie ändert sich an der Grenzfrequenz am schnellsten und bewegt sich von 0 bis 90 Grad.
 \begin{figure}[H]
     \centering
     \includegraphics[width=0.6\textwidth]{Abb/bode.pdf}
@@ -114,11 +114,11 @@ Die Bode-Diagramme beschreiben zwei Arten von Graphen. Zum einen gibt es den Gra
 \end{figure}
 
 Eine typische Größe zur Darstellung der Amplitude ist das Dezibel. Dieses wird für die Leistung wie folgt berechnet:
-P(dB)=10lg(P/P0)
+p(dB)=10lg(P/P0)
 Wir verwenden einfach die Spannung, dies ist erlaubt, da P= U*I
 
 \subsection{Fouriertransformation }
-Die Fourier-Transformation erlaubt es ein Zeitsignal einer aperiodischen Funktion $f(x)$ in ein Spektrum $F(\omega)$ zu zerlegen. Dabei gibt $f(x)$ den Zeitbereich an und $F(\omega)$ den Frequenzbereich. Demnach kann angenommen werden, dass x = Zeit ist und $\omega= $Frequenz. 
+Die Fourier-Transformation erlaubt es ein Zeitsignal einer aperiodischen Funktion $f(t)$ in ein Spektrum $F(\omega)$ zu zerlegen. Dabei gibt $f(t)$ den Zeitbereich an und $F(\omega)$ den Frequenzbereich. Demnach kann angenommen werden, dass x = Zeit ist und $\omega= $Frequenz. 
 Dabei unterscheidet man zwischen verschiedenen Typen. Graphisch sieht dies folgendermaßen aus:
 \begin{figure}[H]
      \centering
@@ -126,10 +126,10 @@ Dabei unterscheidet man zwischen verschiedenen Typen. Graphisch sieht dies folge
 \end{figure}
 Allgemein gilt: Je größer das Zeitfenster, desto größer die erzielbare Frequenzauflösung, aber desto kleiner ist die Zeitauflösung.
 
-Eine weiterer Gewinn durch die Fouriertransformation ist das Digitale Filtern von Frequenzen. Die sog. Fast-Fourier-Transformation zerlegt ein Signal in sein Spektrum, entfernt störende Frequenzen und rücktransformiert das neue Signal. So lassen sich Digital in kurzer Zeit Signale deutlich „verschönern“.
+Eine weiterer Gewinn durch die Fouriertransformation ist, dass sich damit Signale im Frequenzraum filtern lassen. Die sog. Fast-Fourier-Transformation zerlegt ein Signal in sein Spektrum, entfernt störende Frequenzen und rücktransformiert das neue Signal. So lassen sich Signale in kurzer Zeit deutlich verbessern und damit Störsignale entfernen.
 
 \subsection{Technische Herausforderungen bei der Aufnahme von Elektrokardiogrammen}
-Beim Messen von EKG-Signalen sind möglich durch:
+Die Technischen Herausforderungen beim Messen von EKG-Signalen sind:
 
 Elektrische Streufelder:
   Abschrimung der Signalführenden Kabel und Verwendung von Filtern gegen störende Nebensignale.
