@@ -1,0 +1,18 @@
+\BOOKMARK [0][-]{chapter.1}{Einleitung}{}% 1
+\BOOKMARK [0][-]{chapter.2}{Vorbereitung}{}% 2
+\BOOKMARK [1][-]{section.2.1}{Der Operationsverst\344rker}{chapter.2}% 3
+\BOOKMARK [2][-]{subsection.2.1.1}{Allgemeines}{section.2.1}% 4
+\BOOKMARK [2][-]{subsection.2.1.2}{Invertierender Verst\344rker}{section.2.1}% 5
+\BOOKMARK [2][-]{subsection.2.1.3}{Nichtinvertierender Verst\344rker}{section.2.1}% 6
+\BOOKMARK [2][-]{subsection.2.1.4}{Realer/idealer OPV}{section.2.1}% 7
+\BOOKMARK [2][-]{subsection.2.1.5}{Impedanzwandler}{section.2.1}% 8
+\BOOKMARK [2][-]{subsection.2.1.6}{Analog-Digital-Wandler}{section.2.1}% 9
+\BOOKMARK [2][-]{subsection.2.1.7}{Hoch- und Tiefpassschaltungen}{section.2.1}% 10
+\BOOKMARK [2][-]{subsection.2.1.8}{Fouriertransformation}{section.2.1}% 11
+\BOOKMARK [2][-]{subsection.2.1.9}{Technische Herausforderungen bei der Aufnahme von Elektrokardiogrammen}{section.2.1}% 12
+\BOOKMARK [0][-]{chapter.3}{Versuchsdurchf\374hrung}{}% 13
+\BOOKMARK [1][-]{section.3.1}{Testschaltungen}{chapter.3}% 14
+\BOOKMARK [2][-]{subsection.3.1.1}{Verst\344rkungsfaktor einer nicht-invertierenden Schaltung}{section.3.1}% 15
+\BOOKMARK [2][-]{subsection.3.1.2}{Frequenzfilter}{section.3.1}% 16
+\BOOKMARK [1][-]{section.3.2}{EKG Schaltung}{chapter.3}% 17
+\BOOKMARK [0][-]{chapter.4}{Fazit}{}% 18

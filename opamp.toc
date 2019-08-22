@@ -1,23 +1,23 @@
 \babel@toc {ngerman}{}
-\contentsline {chapter}{\numberline {1}Einleitung}{3}{chapter.1}% 
-\contentsline {chapter}{\numberline {2}Vorbereitung}{4}{chapter.2}% 
-\contentsline {section}{\numberline {2.1}Der Operationsverst\IeC {\"a}rker}{4}{section.2.1}% 
-\contentsline {subsection}{\numberline {2.1.1}Allgemeines}{4}{subsection.2.1.1}% 
-\contentsline {subsection}{\numberline {2.1.2}Invertierender Verst\IeC {\"a}rker}{5}{subsection.2.1.2}% 
-\contentsline {subsection}{\numberline {2.1.3}Nichtinvertierender Verst\IeC {\"a}rker}{5}{subsection.2.1.3}% 
-\contentsline {subsection}{\numberline {2.1.4}Realer/idealer OPV}{6}{subsection.2.1.4}% 
-\contentsline {subsection}{\numberline {2.1.5}Impedanzwandler}{6}{subsection.2.1.5}% 
-\contentsline {subsection}{\numberline {2.1.6}Analog-Digital-Wandler}{7}{subsection.2.1.6}% 
-\contentsline {subsection}{\numberline {2.1.7}Hoch- und Tiefpassschaltungen}{8}{subsection.2.1.7}% 
-\contentsline {subsubsection}{\nonumberline RC-Hochpass}{8}{section*.2}% 
-\contentsline {subsubsection}{\nonumberline RC-Tiefpass}{9}{section*.3}% 
-\contentsline {subsubsection}{\nonumberline Bandsperre}{9}{section*.4}% 
-\contentsline {subsubsection}{\nonumberline Bode-Diagramme}{9}{section*.5}% 
-\contentsline {subsection}{\numberline {2.1.8}Fouriertransformation}{10}{subsection.2.1.8}% 
-\contentsline {subsection}{\numberline {2.1.9}Technische Herausforderungen bei der Aufnahme von Elektrokardiogrammen}{11}{subsection.2.1.9}% 
-\contentsline {chapter}{\numberline {3}Versuchsdurchf\IeC {\"u}hrung}{12}{chapter.3}% 
-\contentsline {section}{\numberline {3.1}Testschaltungen}{12}{section.3.1}% 
-\contentsline {subsection}{\numberline {3.1.1}Verst\IeC {\"a}rkungsfaktor einer nicht-invertierenden Schaltung}{12}{subsection.3.1.1}% 
-\contentsline {subsection}{\numberline {3.1.2}Frequenzfilter}{15}{subsection.3.1.2}% 
-\contentsline {section}{\numberline {3.2}EKG Schaltung}{16}{section.3.2}% 
-\contentsline {chapter}{\numberline {4}Fazit}{19}{chapter.4}% 
+\contentsline {chapter}{\numberline {1}Einleitung}{3}{chapter.1}
+\contentsline {chapter}{\numberline {2}Vorbereitung}{4}{chapter.2}
+\contentsline {section}{\numberline {2.1}Der Operationsverst\IeC {\"a}rker}{4}{section.2.1}
+\contentsline {subsection}{\numberline {2.1.1}Allgemeines}{4}{subsection.2.1.1}
+\contentsline {subsection}{\numberline {2.1.2}Invertierender Verst\IeC {\"a}rker}{5}{subsection.2.1.2}
+\contentsline {subsection}{\numberline {2.1.3}Nichtinvertierender Verst\IeC {\"a}rker}{5}{subsection.2.1.3}
+\contentsline {subsection}{\numberline {2.1.4}Realer/idealer OPV}{6}{subsection.2.1.4}
+\contentsline {subsection}{\numberline {2.1.5}Impedanzwandler}{6}{subsection.2.1.5}
+\contentsline {subsection}{\numberline {2.1.6}Analog-Digital-Wandler}{7}{subsection.2.1.6}
+\contentsline {subsection}{\numberline {2.1.7}Hoch- und Tiefpassschaltungen}{8}{subsection.2.1.7}
+\contentsline {subsubsection}{\nonumberline RC-Hochpass}{8}{section*.2}
+\contentsline {subsubsection}{\nonumberline RC-Tiefpass}{9}{section*.3}
+\contentsline {subsubsection}{\nonumberline Bandsperre}{9}{section*.4}
+\contentsline {subsubsection}{\nonumberline Bode-Diagramme}{9}{section*.5}
+\contentsline {subsection}{\numberline {2.1.8}Fouriertransformation}{10}{subsection.2.1.8}
+\contentsline {subsection}{\numberline {2.1.9}Technische Herausforderungen bei der Aufnahme von Elektrokardiogrammen}{11}{subsection.2.1.9}
+\contentsline {chapter}{\numberline {3}Versuchsdurchf\IeC {\"u}hrung}{12}{chapter.3}
+\contentsline {section}{\numberline {3.1}Testschaltungen}{12}{section.3.1}
+\contentsline {subsection}{\numberline {3.1.1}Verst\IeC {\"a}rkungsfaktor einer nicht-invertierenden Schaltung}{12}{subsection.3.1.1}
+\contentsline {subsection}{\numberline {3.1.2}Frequenzfilter}{15}{subsection.3.1.2}
+\contentsline {section}{\numberline {3.2}EKG Schaltung}{16}{section.3.2}
+\contentsline {chapter}{\numberline {4}Fazit}{19}{chapter.4}
