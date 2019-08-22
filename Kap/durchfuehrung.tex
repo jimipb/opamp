@@ -115,24 +115,24 @@ Dadurch werden die Frequenzanteile des Gesamtsignals in ihr Bestandteile zerlegt
 und entlang der x-Achse aufgetragen.
 \begin{figure}[H]
 	\centering
-	\includegraphics[width=0.7\textwidth]{Mess/Ekg/jonas_nofft.pdf}
+	\includegraphics[width=0.7\textwidth]{Mess/Ekg/jonas_nofft_rel.pdf}
 	\caption{Fouriertransformation von Jonas' Herzschlag}
 	\label{jonfftnofilter}
 \end{figure}
 Hier ist der hohe Anteil des Störsignale schnell ersichtlich.
 Die Frequenzanteile unter einem Hertz sollen nun durch einen Hochpass herausgefiltert werden.
-Gleichzeit sollen die Anteile über 14 Hertz durch einen Tiefpassund das Störsignal bei
-10 Hertz durch eine Bandsperre gefiltert werden.
+Gleichzeitig sollen die Anteile über 14 Hertz durch einen Tiefpass und das Störsignal bei
+10 Hertz durch eine Bandsperre gefiltert werden. Gefiltert wurde hierbei mit Qtiplot's eingebauten FFT Filtern. 
 \begin{figure}[H]
 	\centering
-	\includegraphics[width=0.7\textwidth]{Mess/Ekg/jonas_fft.pdf}
+	\includegraphics[width=0.7\textwidth]{Mess/Ekg/jonas_fft_rel.pdf}
 	\caption{Fouriertransformation des Herzschlags nach Filterung}
 	\label{jonfft}
 \end{figure}
 Das Signal ist nun besser erkennbar.
 \begin{figure}[H]
 	\centering
-	\includegraphics[width=0.7\textwidth]{Mess/Ekg/jonas_filter.pdf}
-	\caption{Herzschlags vor und nach Filterung}
+	\includegraphics[width=0.7\textwidth]{Mess/Ekg/jonas_filter_neu.pdf}
+	\caption{Herzschlag vor und nach Filterung}
 	\label{jonfilter}
 \end{figure}
