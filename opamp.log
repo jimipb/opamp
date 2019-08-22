@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2019.8.22)  22 AUG 2019 16:01
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2019.8.22)  22 AUG 2019 16:26
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1241,7 +1241,7 @@ Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 3.
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 3.
-<Abb/opamp.pdf, id=115, 216.81pt x 84.7968pt>
+<Abb/opamp.pdf, id=96, 216.81pt x 84.7968pt>
 File: Abb/opamp.pdf Graphic file (type pdf)
 <use Abb/opamp.pdf>
 Package pdftex.def Info: Abb/opamp.pdf  used on input line 7.
@@ -1250,7 +1250,7 @@ Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 15.
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 15.
-<Abb/invamp.pdf, id=116, 90.0966pt x 50.3481pt>
+<Abb/invamp.pdf, id=97, 90.0966pt x 50.3481pt>
 File: Abb/invamp.pdf Graphic file (type pdf)
 <use Abb/invamp.pdf>
 Package pdftex.def Info: Abb/invamp.pdf  used on input line 19.
@@ -1277,7 +1277,7 @@ Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 26.
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 26.
-<Abb/ninv.pdf, id=131, 52.998pt x 38.7849pt>
+<Abb/ninv.pdf, id=112, 52.998pt x 38.7849pt>
 File: Abb/ninv.pdf Graphic file (type pdf)
 <use Abb/ninv.pdf>
 Package pdftex.def Info: Abb/ninv.pdf  used on input line 30.
@@ -1327,7 +1327,7 @@ l.43
 pdfTeX warning: pdflatex (file ./Abb/ninv.pdf): PDF inclusion: multiple pdfs wi
 th page group included in a single page
 >]
-<Abb/vergl.pdf, id=160, 144.0582pt x 39.7485pt>
+<Abb/vergl.pdf, id=141, 144.0582pt x 39.7485pt>
 File: Abb/vergl.pdf Graphic file (type pdf)
 <use Abb/vergl.pdf>
 Package pdftex.def Info: Abb/vergl.pdf  used on input line 46.
@@ -1336,7 +1336,7 @@ Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 50.
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 50.
-<Abb/impconv.pdf, id=161, 308.352pt x 205.4877pt>
+<Abb/impconv.pdf, id=142, 308.352pt x 205.4877pt>
 File: Abb/impconv.pdf Graphic file (type pdf)
 <use Abb/impconv.pdf>
 Package pdftex.def Info: Abb/impconv.pdf  used on input line 55.
@@ -1376,12 +1376,12 @@ Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 60.
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 60.
-<Abb/adw.pdf, id=185, 303.2931pt x 173.9298pt>
+<Abb/adw.pdf, id=165, 303.2931pt x 173.9298pt>
 File: Abb/adw.pdf Graphic file (type pdf)
 <use Abb/adw.pdf>
 Package pdftex.def Info: Abb/adw.pdf  used on input line 66.
 (pdftex.def)             Requested size: 292.7776pt x 167.90489pt.
-<Abb/abtast.pdf, id=186, 149.4346pt x 115.30772pt>
+<Abb/abtast.pdf, id=166, 149.4346pt x 115.30772pt>
 File: Abb/abtast.pdf Graphic file (type pdf)
 <use Abb/abtast.pdf>
 Package pdftex.def Info: Abb/abtast.pdf  used on input line 74.
@@ -1405,7 +1405,7 @@ Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 78.
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 78.
-<Abb/pass.pdf, id=202, 119.2455pt x 34.9305pt>
+<Abb/pass.pdf, id=183, 119.2455pt x 34.9305pt>
 File: Abb/pass.pdf Graphic file (type pdf)
 <use Abb/pass.pdf>
 Package pdftex.def Info: Abb/pass.pdf  used on input line 83.
@@ -1435,7 +1435,7 @@ l.96
 pdfTeX warning: pdflatex (file ./Abb/pass.pdf): PDF inclusion: multiple pdfs wi
 th page group included in a single page
 >]
-<Abb/rechteck_tiefpass.pdf, id=226, 642.4pt x 481.8pt>
+<Abb/rechteck_tiefpass.pdf, id=207, 642.4pt x 481.8pt>
 File: Abb/rechteck_tiefpass.pdf Graphic file (type pdf)
 <use Abb/rechteck_tiefpass.pdf>
 Package pdftex.def Info: Abb/rechteck_tiefpass.pdf  used on input line 104.
@@ -1446,7 +1446,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 105--105
  auf ein
  []
 
-<Abb/bode.pdf, id=227, 110.814pt x 113.9457pt>
+<Abb/bode.pdf, id=208, 110.814pt x 113.9457pt>
 File: Abb/bode.pdf Graphic file (type pdf)
 <use Abb/bode.pdf>
 Package pdftex.def Info: Abb/bode.pdf  used on input line 112.
@@ -1470,7 +1470,7 @@ Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 120.
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 120.
-<Abb/fourier.pdf, id=246, 84.315pt x 78.0516pt>
+<Abb/fourier.pdf, id=227, 84.315pt x 78.0516pt>
 File: Abb/fourier.pdf Graphic file (type pdf)
 <use Abb/fourier.pdf>
 Package pdftex.def Info: Abb/fourier.pdf  used on input line 125.
@@ -1518,7 +1518,7 @@ Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 12.
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 12.
-<Abb/nicht-inv.pdf, id=274, 78.2925pt x 55.20625pt>
+<Abb/nicht-inv.pdf, id=255, 78.2925pt x 55.20625pt>
 File: Abb/nicht-inv.pdf Graphic file (type pdf)
 <use Abb/nicht-inv.pdf>
 Package pdftex.def Info: Abb/nicht-inv.pdf  used on input line 18.
@@ -1535,12 +1535,12 @@ Underfull \hbox (badness 3000) in paragraph at lines 21--21
 st[]ande
  []
 
-<Mess/Op/ausgangssignal.pdf, id=275, 792.9625pt x 484.81125pt>
+<Mess/Op/ausgangssignal.pdf, id=256, 792.9625pt x 484.81125pt>
 File: Mess/Op/ausgangssignal.pdf Graphic file (type pdf)
 <use Mess/Op/ausgangssignal.pdf>
 Package pdftex.def Info: Mess/Op/ausgangssignal.pdf  used on input line 30.
 (pdftex.def)             Requested size: 292.7776pt x 179.00006pt.
-<Mess/Op/faktor1.pdf, id=276, 755.82375pt x 481.8pt>
+<Mess/Op/faktor1.pdf, id=257, 755.82375pt x 481.8pt>
 File: Mess/Op/faktor1.pdf Graphic file (type pdf)
 <use Mess/Op/faktor1.pdf>
 Package pdftex.def Info: Mess/Op/faktor1.pdf  used on input line 35.
@@ -1562,7 +1562,7 @@ has been already used, duplicate ignored
                                                   \fi \fi 
 l.36 
       <./Abb/nicht-inv.pdf>]
-<Mess/Op/spannungsteiler.pdf, id=288, 755.82375pt x 481.8pt>
+<Mess/Op/spannungsteiler.pdf, id=269, 755.82375pt x 481.8pt>
 File: Mess/Op/spannungsteiler.pdf Graphic file (type pdf)
 <use Mess/Op/spannungsteiler.pdf>
 Package pdftex.def Info: Mess/Op/spannungsteiler.pdf  used on input line 41.
@@ -1593,7 +1593,7 @@ l.42
                                                   \fi \fi 
 l.42 
       <./Mess/Op/ausgangssignal.pdf> <./Mess/Op/faktor1.pdf>]
-<Mess/Op/noninv.pdf, id=319, 755.82375pt x 481.8pt>
+<Mess/Op/noninv.pdf, id=299, 755.82375pt x 481.8pt>
 File: Mess/Op/noninv.pdf Graphic file (type pdf)
 <use Mess/Op/noninv.pdf>
 Package pdftex.def Info: Mess/Op/noninv.pdf  used on input line 63.
@@ -1622,7 +1622,7 @@ Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 65.
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 65.
-<Mess/hochpass.pdf, id=335, 711.65875pt x 488.82625pt>
+<Mess/hochpass.pdf, id=316, 711.65875pt x 488.82625pt>
 File: Mess/hochpass.pdf Graphic file (type pdf)
 <use Mess/hochpass.pdf>
 Package pdftex.def Info: Mess/hochpass.pdf  used on input line 73.
@@ -1652,12 +1652,12 @@ Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 103.
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 103.
-<Mess/Ekg/korbi_unb.pdf, id=364, 642.4pt x 481.8pt>
+<Mess/Ekg/korbi_unb.pdf, id=345, 642.4pt x 481.8pt>
 File: Mess/Ekg/korbi_unb.pdf Graphic file (type pdf)
 <use Mess/Ekg/korbi_unb.pdf>
 Package pdftex.def Info: Mess/Ekg/korbi_unb.pdf  used on input line 108.
 (pdftex.def)             Requested size: 292.7776pt x 219.58691pt.
-<Mess/Ekg/jonas_unb.pdf, id=365, 642.4pt x 481.8pt>
+<Mess/Ekg/jonas_unb.pdf, id=346, 642.4pt x 481.8pt>
 File: Mess/Ekg/jonas_unb.pdf Graphic file (type pdf)
 <use Mess/Ekg/jonas_unb.pdf>
 Package pdftex.def Info: Mess/Ekg/jonas_unb.pdf  used on input line 111.
@@ -1677,12 +1677,12 @@ Package babel Info: Redefining ngerman shorthand "~
                                                   \fi \fi 
 l.112 
        <./Mess/Ekg/korbi_unb.pdf>]
-<Mess/Ekg/jonas_nofft_rel.pdf, id=382, 396.48128pt x 304.13625pt>
+<Mess/Ekg/jonas_nofft_rel.pdf, id=363, 396.48128pt x 304.13625pt>
 File: Mess/Ekg/jonas_nofft_rel.pdf Graphic file (type pdf)
 <use Mess/Ekg/jonas_nofft_rel.pdf>
 Package pdftex.def Info: Mess/Ekg/jonas_nofft_rel.pdf  used on input line 118.
 (pdftex.def)             Requested size: 292.7776pt x 224.58858pt.
-<Mess/Ekg/jonas_fft_rel.pdf, id=383, 437.635pt x 300.12125pt>
+<Mess/Ekg/jonas_fft_rel.pdf, id=364, 437.635pt x 300.12125pt>
 File: Mess/Ekg/jonas_fft_rel.pdf Graphic file (type pdf)
 <use Mess/Ekg/jonas_fft_rel.pdf>
 Package pdftex.def Info: Mess/Ekg/jonas_fft_rel.pdf  used on input line 128.
@@ -1708,7 +1708,7 @@ name{figure.3.9}) has been already used, duplicate ignored
                                                   \fi \fi 
 l.131 \end{figure}
                    <./Mess/Ekg/jonas_unb.pdf> <./Mess/Ekg/jonas_nofft_rel.pdf>]
-<Mess/Ekg/jonas_filter_neu.pdf, id=416, 398.48875pt x 282.05376pt>
+<Mess/Ekg/jonas_filter_neu.pdf, id=397, 398.48875pt x 282.05376pt>
 File: Mess/Ekg/jonas_filter_neu.pdf Graphic file (type pdf)
 <use Mess/Ekg/jonas_filter_neu.pdf>
 Package pdftex.def Info: Mess/Ekg/jonas_filter_neu.pdf  used on input line 135.
@@ -1811,10 +1811,10 @@ LaTeX Warning: There were multiply-defined labels.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 28.
  ) 
 Here is how much of TeX's memory you used:
- 20163 strings out of 494798
- 386585 string characters out of 6176800
+ 20159 strings out of 494798
+ 386464 string characters out of 6176800
  624052 words of memory out of 5000000
- 23215 multiletter control sequences out of 15000+600000
+ 23211 multiletter control sequences out of 15000+600000
  540425 words of font info for 61 fonts, out of 8000000 for 9000
  59 hyphenation exceptions out of 8191
  41i,20n,66p,10377b,932s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1831,10 +1831,10 @@ onts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/c
 m/cmsy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt1
 0.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/
 share/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb>
-Output written on opamp.pdf (20 pages, 1299345 bytes).
+Output written on opamp.pdf (20 pages, 1297804 bytes).
 PDF statistics:
- 549 PDF objects out of 1000 (max. 8388607)
- 424 compressed objects within 5 object streams
+ 530 PDF objects out of 1000 (max. 8388607)
+ 405 compressed objects within 5 object streams
  76 named destinations out of 1000 (max. 500000)
  260 words of extra memory for PDF output out of 10000 (max. 10000000)
 
